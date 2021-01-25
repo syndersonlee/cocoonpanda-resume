@@ -33,13 +33,29 @@ class BasicElements extends React.Component {
               <Col lg="12">
                 {/* Basic elements */}
                 <h2 className="mb-5">
-                  <span>Basic Elements</span>
+                  <span>SKILLS</span>
                 </h2>
                 {/* Buttons */}
                 <h3 className="h4 text-success font-weight-bold mb-4">
                   Buttons
                 </h3>
                 {/* Button styles */}
+                <div className="mb-3 mt-5">
+                  <small className="text-uppercase font-weight-bold">
+                    Backend Framework
+                  </small>
+                </div>
+                <Button className="btn-1" color="primary" type="button">
+                  Spring Boot
+                </Button>
+                <Button className="btn-1" color="primary" type="button">
+                  Node.js
+                </Button>
+                <div className="mb-3 mt-5">
+                  <small className="text-uppercase font-weight-bold">
+                    DATABASE ( Cloud / OnPremise )
+                  </small>
+                </div>
                 <div>
                   <Button color="primary" type="button">
                     Button
@@ -87,14 +103,14 @@ class BasicElements extends React.Component {
                 {/* Button colors */}
                 <div className="mb-3 mt-5">
                   <small className="text-uppercase font-weight-bold">
-                    Pick your color
+                    Backend Framework
                   </small>
                 </div>
                 <Button className="btn-1" color="primary" type="button">
-                  Primary
+                  Spring Boot
                 </Button>
                 <Button className="btn-1 ml-1" color="info" type="button">
-                  Info
+                  Node.js
                 </Button>
                 <Button className="btn-1 ml-1" color="success" type="button">
                   Success
