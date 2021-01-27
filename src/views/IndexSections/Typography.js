@@ -335,10 +335,12 @@ class Typography extends React.Component {
               Raised
             </small>
             <img
+              id="test"
               alt="..."
               className="img-fluid rounded shadow-lg"
               src={require("assets/img/theme/team-3-800x800.jpg")}
               style={{ width: "150px" }}
+              onMouseOver="this.innerHTML='test'"
             />
           </Col>
           <Col className="mt-5 mt-sm-0" sm="3" xs="6">

@@ -417,6 +417,10 @@ mark,
   max-width: 100%;
   height: auto; }
 
+#test.hover {
+  opacity: 70%;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
