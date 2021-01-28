@@ -24,295 +24,88 @@ class Typography extends React.Component {
   render() {
     return (
       <>
-        <h2 className="mt-lg mb-5">
-          <span>Typography</span>
-        </h2>
-        <h3 className="h4 text-success font-weight-bold">Headings</h3>
+        <h3 className="h3 text-danger font-weight-bold mt-md">Experience</h3>
         <Row className="py-3 align-items-center">
           <Col sm="3">
-            <small className="text-uppercase text-muted font-weight-bold">
-              Heading 1
-            </small>
+            <img alt="sopt" src="http://sopt.org/wp/wp-content/uploads/2020/08/LOGO.png" width="150px"></img>
           </Col>
           <Col sm="9">
-            <h1 className="mb-0">Argon Design System</h1>
+            2018.09 ~ 2019.08
+            <p><br/>대학생 연합 IT벤처 창업 동아리 S.O.P.T
+            <br/>23,24기 서버파트</p>
           </Col>
         </Row>
         <Row className="py-3 align-items-center">
           <Col sm="3">
-            <small className="text-uppercase text-muted font-weight-bold">
-              Heading 2
-            </small>
+            <img alt="swm" src="https://swmaestro.org/static/sw/images/logo_copy.png" width="150px"></img>
           </Col>
           <Col sm="9">
-            <h2 className="mb-0">Argon Design System</h2>
+            2019.06 ~ 2019.11
+            <p><br/>10기 SW마에스트로 과정
+            <br/>Team greyGlass</p>
           </Col>
         </Row>
         <Row className="py-3 align-items-center">
           <Col sm="3">
-            <small className="text-uppercase text-muted font-weight-bold">
-              Heading 3
-            </small>
+            <img alt="nexters" src="http://teamnexters.com/img/18th/18th-logo-Black.png" width="150px"></img>
           </Col>
           <Col sm="9">
-            <h3 className="mb-0">Argon Design System</h3>
+            2020.06 – NOW<br/>
+            <p><br/>IT 연합동아리 Nexters
+            <br/>17, 18기</p>
           </Col>
         </Row>
+        <h3 className="h3 text-primary font-weight-bold mt-md">Work Experience</h3>
         <Row className="py-3 align-items-center">
           <Col sm="3">
-            <small className="text-uppercase text-muted font-weight-bold">
-              Heading 4
-            </small>
+            <img alt="neuroacs" src="https://neuroacs.com/img/logo_neuro_big.png" width="150px"></img>
           </Col>
           <Col sm="9">
-            <h4 className="mb-0">Argon Design System</h4>
-          </Col>
-        </Row>
-        <Row className="py-3 align-items-center">
-          <Col sm="3">
-            <small className="text-uppercase text-muted font-weight-bold">
-              Heading 5
-            </small>
-          </Col>
-          <Col sm="9">
-            <h5 className="mb-0">Argon Design System</h5>
-          </Col>
-        </Row>
-        <Row className="py-3 align-items-center">
-          <Col sm="3">
-            <small className="text-uppercase text-muted font-weight-bold">
-              Heading 6
-            </small>
-          </Col>
-          <Col sm="9">
-            <h6 className="mb-0">Argon Design System</h6>
-          </Col>
-        </Row>
-        {/* Display titles */}
-        <h3 className="h4 text-success font-weight-bold mt-md">
-          Display titles
-        </h3>
-        <Row className="py-3 align-items-center">
-          <Col sm="3">
-            <small className="text-uppercase text-muted font-weight-bold">
-              Display 1
-            </small>
-          </Col>
-          <Col sm="9">
-            <h1 className="display-1 mb-0">Argon Design System</h1>
-          </Col>
-        </Row>
-        <Row className="py-3 align-items-center">
-          <Col sm="3">
-            <small className="text-uppercase text-muted font-weight-bold">
-              Display 2
-            </small>
-          </Col>
-          <Col sm="9">
-            <h2 className="display-2 mb-0">Argon Design System</h2>
-          </Col>
-        </Row>
-        <Row className="py-3 align-items-center">
-          <Col sm="3">
-            <small className="text-uppercase text-muted font-weight-bold">
-              Display 3
-            </small>
-          </Col>
-          <Col sm="9">
-            <h3 className="display-3 mb-0">Argon Design System</h3>
-          </Col>
-        </Row>
-        <Row className="py-3 align-items-center">
-          <Col sm="3">
-            <small className="text-uppercase text-muted font-weight-bold">
-              Display 4
-            </small>
-          </Col>
-          <Col sm="9">
-            <h4 className="display-4 mb-0">Argon Design System</h4>
-          </Col>
-        </Row>
-        {/* Specialized titles */}
-        <h3 className="h4 text-success font-weight-bold mt-md">
-          Specialized titles
-        </h3>
-        <Row className="py-3 align-items-center">
-          <Col sm="3">
-            <small className="text-uppercase text-muted font-weight-bold">
-              Heading
-            </small>
-          </Col>
-          <Col sm="9">
-            <h3 className="heading mb-0">Argon Design System</h3>
-          </Col>
-        </Row>
-        <Row className="py-3 align-items-center">
-          <Col sm="3">
-            <small className="text-uppercase text-muted font-weight-bold">
-              Heading title
-            </small>
-          </Col>
-          <Col sm="9">
-            <h3 className="heading-title text-warning mb-0">
-              Argon Design System
-            </h3>
-          </Col>
-        </Row>
-        <Row className="py-3 align-items-center">
-          <Col sm="3">
-            <small className="text-uppercase text-muted font-weight-bold">
-              Heading seaction
-            </small>
-          </Col>
-          <Col sm="9">
-            <div>
-              <h2 className="display-3">Header with small subtitle</h2>
-              <p className="lead text-muted">
-                According to the National Oceanic and Atmospheric
-                Administration, Ted, Scambos, NSIDClead scentist, puts the
-                potentially record maximum.
-              </p>
-            </div>
-          </Col>
-        </Row>
-        <h3 className="h4 text-success font-weight-bold mt-md">Paragraphs</h3>
-        <Row className="py-3 align-items-center">
-          <Col sm="3">
-            <small className="text-uppercase text-muted font-weight-bold">
-              Paragraph
-            </small>
-          </Col>
-          <Col sm="9">
+            2018.06 – 2018.08<br/>
+            ㈜Neuro Associates 웹 개발 인턴<br/><br/>
             <p>
-              I will be the leader of a company that ends up being worth
-              billions of dollars, because I got the answers. I understand
-              culture. I am the nucleus. I think that’s a responsibility that I
-              have, to push possibilities, to show people, this is the level
-              that things could be at.
+            D3.js를 이용한 데이터 시각화<br/>
+            HTML / CSS / Javascript / D3.js<br/>
             </p>
           </Col>
         </Row>
         <Row className="py-3 align-items-center">
           <Col sm="3">
-            <small className="text-uppercase text-muted font-weight-bold">
-              Lead text
-            </small>
+            <img alt="concat" src="https://concat.kr/images/concat-black-logo.png" width="150px"></img>
           </Col>
           <Col sm="9">
-            <p className="lead">
-              I will be the leader of a company that ends up being worth
-              billions of dollars, because I got the answers. I understand
-              culture. I am the nucleus. I think that’s a responsibility that I
-              have, to push possibilities, to show people, this is the level
-              that things could be at.
+            
+            2018.12 – 2019.06<br/>
+            CONCAT INC. React Native 개발 인턴<br/><br/>
+            <p>
+            미세먼지 정보 제공 및 제품 판매 어플 뷰 개발 ‘서울에어’<br/>
+            React Native / Node.js / Google Cloud Service<br/>
             </p>
           </Col>
         </Row>
         <Row className="py-3 align-items-center">
           <Col sm="3">
-            <small className="text-uppercase text-muted font-weight-bold">
-              Quote
-            </small>
+            <img alt="autoever" src="https://www.hyundai.co.kr/images/affiliates/others/img-autoever-logo.gif" width="150px"></img>
           </Col>
           <Col sm="9">
-            <blockquote className="blockquote">
-              <p className="mb-0">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-                posuere erat a ante.
-              </p>
-              <footer className="blockquote-footer">
-                Someone famous in <cite title="Source Title">Source Title</cite>
-              </footer>
-            </blockquote>
-          </Col>
-        </Row>
-        <Row className="py-3 align-items-center">
-          <Col sm="3">
-            <small className="text-uppercase text-muted font-weight-bold">
-              Muted text
-            </small>
-          </Col>
-          <Col sm="9">
-            <p className="text-muted mb-0">
-              I will be the leader of a company that ends up being worth
-              billions of dollars, because I got the answers...
+            2020.03 – NOW<br/>
+            현대오토에버 경영데이터분석팀<br/><br/>
+            <p>
+            현대-기아 판매법인 데이터 무결성 관리<br/>
+            Oracle ExaDB / Informatica PowerCenter<br/>
+            상용 차트 라이브러리 활용 대시보드 개발/운영<br/>
+            JSP(전자정부프레임워크) / Javascript<br/>
             </p>
           </Col>
         </Row>
-        <Row className="py-3 align-items-center">
-          <Col sm="3">
-            <small className="text-uppercase text-muted font-weight-bold">
-              Primary text
-            </small>
-          </Col>
-          <Col sm="9">
-            <p className="text-primary">
-              I will be the leader of a company that ends up being worth
-              billions of dollars, because I got the answers...
-            </p>
-          </Col>
-        </Row>
-        <Row className="py-3 align-items-center">
-          <Col sm="3">
-            <small className="text-uppercase text-muted font-weight-bold">
-              Info text
-            </small>
-          </Col>
-          <Col sm="9">
-            <p className="text-info mb-0">
-              I will be the leader of a company that ends up being worth
-              billions of dollars, because I got the answers...
-            </p>
-          </Col>
-        </Row>
-        <Row className="py-3 align-items-center">
-          <Col sm="3">
-            <small className="text-uppercase text-muted font-weight-bold">
-              Success text
-            </small>
-          </Col>
-          <Col sm="9">
-            <p className="text-success mb-0">
-              I will be the leader of a company that ends up being worth
-              billions of dollars, because I got the answers...
-            </p>
-          </Col>
-        </Row>
-        <Row className="py-3 align-items-center">
-          <Col sm="3">
-            <small className="text-uppercase text-muted font-weight-bold">
-              Warning text
-            </small>
-          </Col>
-          <Col sm="9">
-            <p className="text-warning mb-0">
-              I will be the leader of a company that ends up being worth
-              billions of dollars, because I got the answers...
-            </p>
-          </Col>
-        </Row>
-        <Row className="py-3 align-items-center">
-          <Col sm="3">
-            <small className="text-uppercase text-muted font-weight-bold">
-              Danger text
-            </small>
-          </Col>
-          <Col sm="9">
-            <p className="text-danger mb-0">
-              I will be the leader of a company that ends up being worth
-              billions of dollars, because I got the answers...
-            </p>
-          </Col>
-        </Row>
-        <h2 className="mt-lg mb-5">
+        <h2 className="h3 text-warning font-weight-bold mt-lg mb-5">
           <span>사이드 프로젝트 목록</span>
         </h2>
-        
         <Row>
           <Col sm="3" xs="6">
-            <small className="d-block text-uppercase font-weight-bold mb-4">
-              Project Artoo
-            </small>
+            <p className="d-block text-uppercase font-weight-bold mb-4">
+              Artoo
+            </p>
             <a href="https://github.com/soptart/Server">
             <img
               alt="..."
@@ -323,9 +116,9 @@ class Typography extends React.Component {
             </a>
           </Col>
           <Col sm="3" xs="6">
-            <small className="d-block text-uppercase font-weight-bold mb-4">
-              Project LocAin
-            </small>
+            <p className="d-block text-uppercase font-weight-bold mb-4">
+              LocAin
+            </p>
             <a href="https://github.com/syndersonLEE/LocAinServer">
             <img
               alt="..."
@@ -336,9 +129,10 @@ class Typography extends React.Component {
             </a>
           </Col>
           <Col className="mt-5 mt-sm-0" sm="3" xs="6">
-            <small className="d-block text-uppercase font-weight-bold mb-4">
-              Project 전하
-            </small>
+            <p className="d-block text-uppercase font-weight-bold mb-4">
+              전하
+            </p>
+            <a href="https://github.com/JeonHa/JeonHa-Server">
             <img
               alt="..."
               className="img-fluid rounded shadow-lg"
@@ -346,17 +140,64 @@ class Typography extends React.Component {
               style={{ width: "150px" }}
               onMouseOver="this.innerHTML='test'"
             />
+            </a>
           </Col>
           <Col className="mt-5 mt-sm-0" sm="3" xs="6">
-            <small className="d-block text-uppercase font-weight-bold mb-4">
-              Project 올라
-            </small>
+            <p className="d-block text-uppercase font-weight-bold mb-4">
+              올라
+            </p>
+            <a href="https://github.com/OrlaProject/Orla_Server">
             <img
               alt="..."
               className="img-fluid rounded shadow-lg"
               src={require("images/올라.png")}
               style={{ width: "150px" }}
             />
+            </a>
+          </Col>
+        </Row>
+        <br/><br/><br/>
+        <Row>
+          
+          <Col className="mt-5 mt-sm-0" sm="3" xs="6">
+            <p className="d-block text-uppercase font-weight-bold mb-4">
+              쉬자
+            </p>
+            <a href="https://github.com/soptrest/soptgetrestserver">
+            <img
+              alt="..."
+              className="img-fluid rounded-circle shadow-lg"
+              src={require("images/쉬자.png")}
+              style={{ width: "150px" }}
+              onMouseOver="this.innerHTML='test'"
+            />
+            </a>
+          </Col>
+          <Col sm="3" xs="6">
+            <p className="d-block text-uppercase font-weight-bold mb-4">
+                짤내투어
+            </p>
+            <a href="https://github.com/amathon-2019/GodokChatting">
+            <img
+              alt="..."
+              className="img-fluid rounded shadow"
+              src={require("images/zzal.png")}
+              style={{ width: "150px" }}
+            />
+            </a>
+          </Col>
+          <Col sm="3" xs="6">
+            <p className="d-block text-uppercase font-weight-bold mb-4">
+              카툰월드
+            </p>
+            <a href="https://github.com/kcartoonworld/kcartoonserver">
+            <img
+              alt="..."
+              className="img-fluid rounded shadow"
+              src={require("images/cartoon.png")}
+              style={{ width: "150px" }}
+            />
+            </a>
           </Col>
         </Row>
       </>

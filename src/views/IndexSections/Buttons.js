@@ -19,7 +19,7 @@ import React from "react";
 
 // reactstrap components
 import { Button, Container, Row, Col } from "reactstrap";
-
+import PaginItem  from 'views/IndexSections/PaginItem.js';
 class BasicElements extends React.Component {
   render() {
     return (
@@ -32,196 +32,96 @@ class BasicElements extends React.Component {
             <Row className="justify-content-center">
               <Col lg="12">
                 {/* Basic elements */}
-                <h2 className="mb-5">
+                <h2 className="h3 text-success font-weight-bold mb-5">
                   <span>SKILLS</span>
                 </h2>
-                {/* Buttons */}
-                <h3 className="h4 text-success font-weight-bold mb-4">
-                  Buttons
-                </h3>
                 {/* Button styles */}
                 <div className="mb-3 mt-5">
-                  <small className="text-uppercase font-weight-bold">
+                  <h5 className="text-uppercase font-weight-bold">
                     Backend Framework
-                  </small>
+                  </h5>
                 </div>
+                <div class="skill-set">
+                  <Button className="btn-1" color="primary" type="button">
+                    Spring Boot
+                  </Button>
+                  <PaginItem active="2"></PaginItem>
+                  <br/><small> MyBatis / JPA 및 OAuth2를 활용하여 MVC 기반 API 구축 경험</small><br/><br/>
+                  <Button className="btn-1" color="info" type="button">
+                    Node.js
+                  </Button>
+                  <PaginItem active="2"></PaginItem>
+                  <br/><small> Express.js을 활용하여 MVC 기반 API 구축 경험</small><br/><br/>
+                </div>
+                <div className="mb-3 mt-5">
+                  <h5 className="text-uppercase font-weight-bold">
+                    Database
+                  </h5>
+                </div>
+                <div class="skill-set">
+                  <Button className="btn-1" color="success" type="button">
+                    MYSQL
+                  </Button>
+                  <PaginItem active="2"></PaginItem>
+                  <br/><small>CRUD 기반 서비스에 필요한 데이터모델링 및 개발</small><br/><br/>
+                  <Button className="btn-1" color="warning" type="button">
+                    Oracle DB
+                  </Button>
+                  <PaginItem active="2"></PaginItem>
+                  <br/><small>10만 단위 쿼리 CRUD에 필요한 기본 SQL튜닝 사용 가능 (Partition / 힌트 주석)</small><br/><br/>
+                </div>
+                <div className="mb-3 mt-5">
+                  <h5 className="text-uppercase font-weight-bold">
+                    Cloud
+                  </h5>
+                </div>
+                <div class="skill-set">
+                  <Button className="btn-1" color="danger" type="button">
+                    AWS
+                  </Button>
+                  <PaginItem active="1"></PaginItem>
+                  <br/><small>EC2/RDS/S3/Lambda를 활용한 클라우드 환경 구축</small><br/><br/>
+                  <Button className="btn-1" color="primary" type="button">
+                    Google Cloud Platform
+                  </Button>
+                  <PaginItem active="1"></PaginItem>
+                  <br/><small>Cloud Function/Firestore 활용한 클라우드 환경 구축</small><br/><br/>
+                </div>
+                <div className="mb-3 mt-5">
+                  <h5 className="text-uppercase font-weight-bold">
+                    Frontend Framework
+                  </h5>
+                </div>
+                <div class="skill-set">
+                  <Button className="btn-1" color="success" type="button">
+                    React.js
+                  </Button>
+                  <PaginItem active="1"></PaginItem>
+                  <br/><small>JSX를 이용한 뷰 생성</small><br/><br/>
+                  <Button className="btn-1" color="warning" type="button">
+                    JSP
+                  </Button>
+                  <PaginItem active="2"></PaginItem>
+                  <br/><small>CRUD를 활용한 Servlet 구현 및 화면 개발 가능</small><br/><br/>
+                </div>
+                <div className="mb-3 mt-5">
+                  <h5 className="text-uppercase font-weight-bold">
+                    Extra
+                  </h5>
+                </div>
+                <div class="skill-set">
+                <Button className="btn-1" color="danger" type="button">
+                  Unity
+                </Button>
+                <PaginItem active="1"></PaginItem>
+                <br/><small>오브젝트 생성 및 수치를 부여하여 3D 기초 모델링 가능</small><br/><br/>
                 <Button className="btn-1" color="primary" type="button">
-                  Spring Boot
+                  Informatica
                 </Button>
-                <Button className="btn-1" color="primary" type="button">
-                  Node.js
-                </Button>
-                <div className="mb-3 mt-5">
-                  <small className="text-uppercase font-weight-bold">
-                    DATABASE ( Cloud / OnPremise )
-                  </small>
+                <PaginItem active="1"></PaginItem>
+                <br/><small>SAP BW에서 들어오는 데이터를 Oracle DB로 이관하기 위한 Transformation 개발</small><br/><br/>
                 </div>
-                <div>
-                  <Button color="primary" type="button">
-                    Button
-                  </Button>
-                  <Button
-                    className="btn-icon btn-3 ml-1"
-                    color="primary"
-                    type="button"
-                  >
-                    <span className="btn-inner--icon mr-1">
-                      <i className="ni ni-bag-17" />
-                    </span>
-                    <span className="btn-inner--text">With icon</span>
-                  </Button>
-                  <Button
-                    className="btn-icon btn-2 ml-1"
-                    color="primary"
-                    type="button"
-                  >
-                    <span className="btn-inner--icon">
-                      <i className="ni ni-bag-17" />
-                    </span>
-                  </Button>
-                  {/* Button wizes */}
-                  <div className="mb-3 mt-5">
-                    <small className="text-uppercase font-weight-bold">
-                      Pick your size
-                    </small>
-                  </div>
-                  <Button color="primary" size="sm" type="button">
-                    Small
-                  </Button>
-                  <Button className="btn-1 ml-1" color="primary" type="button">
-                    Regular
-                  </Button>
-                  <Button
-                    color="primary"
-                    size="lg"
-                    type="button"
-                    className="ml-1"
-                  >
-                    Large Button
-                  </Button>
-                </div>
-                {/* Button colors */}
-                <div className="mb-3 mt-5">
-                  <small className="text-uppercase font-weight-bold">
-                    Backend Framework
-                  </small>
-                </div>
-                <Button className="btn-1" color="primary" type="button">
-                  Spring Boot
-                </Button>
-                <Button className="btn-1 ml-1" color="info" type="button">
-                  Node.js
-                </Button>
-                <Button className="btn-1 ml-1" color="success" type="button">
-                  Success
-                </Button>
-                <Button className="btn-1 ml-1" color="warning" type="button">
-                  Warning
-                </Button>
-                <Button className="btn-1 ml-1" color="danger" type="button">
-                  Danger
-                </Button>
-                <Button
-                  className="btn-1 btn-neutral ml-1"
-                  color="default"
-                  type="button"
-                >
-                  Neutral
-                </Button>
-                <div className="mb-3 mt-5">
-                  <small className="text-uppercase font-weight-bold">
-                    Outline
-                  </small>
-                </div>
-                <Button className="btn-1" color="primary" outline type="button">
-                  Outline-primary
-                </Button>
-                <Button
-                  className="btn-1 ml-1"
-                  color="info"
-                  outline
-                  type="button"
-                >
-                  Outline-info
-                </Button>
-                <Button
-                  className="btn-1 ml-1"
-                  color="success"
-                  outline
-                  type="button"
-                >
-                  Outline-success
-                </Button>
-                <Button
-                  className="btn-1 ml-1"
-                  color="warning"
-                  outline
-                  type="button"
-                >
-                  Outline-warning
-                </Button>
-                <Button
-                  className="btn-1 ml-1"
-                  color="danger"
-                  outline
-                  type="button"
-                >
-                  Outline-danger
-                </Button>
-                {/* Button links */}
-                <div className="mb-3 mt-5">
-                  <small className="text-uppercase font-weight-bold">
-                    Links
-                  </small>
-                </div>
-                <Button
-                  className="text-default"
-                  color="link"
-                  href="#pablo"
-                  onClick={e => e.preventDefault()}
-                >
-                  Default
-                </Button>
-                <Button
-                  className="text-primary ml-1"
-                  color="link"
-                  href="#pablo"
-                  onClick={e => e.preventDefault()}
-                >
-                  Primary
-                </Button>
-                <Button
-                  className="text-info ml-1"
-                  color="link"
-                  href="#pablo"
-                  onClick={e => e.preventDefault()}
-                >
-                  Info
-                </Button>
-                <Button
-                  className="text-success ml-1"
-                  color="link"
-                  href="#pablo"
-                  onClick={e => e.preventDefault()}
-                >
-                  Success
-                </Button>
-                <Button
-                  className="text-warning ml-1"
-                  color="link"
-                  href="#pablo"
-                  onClick={e => e.preventDefault()}
-                >
-                  Warning
-                </Button>
-                <Button
-                  className="text-danger ml-1"
-                  color="link"
-                  href="#pablo"
-                  onClick={e => e.preventDefault()}
-                >
-                  Danger
-                </Button>
+                
               </Col>
             </Row>
           </Container>

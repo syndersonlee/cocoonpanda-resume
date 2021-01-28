@@ -17,19 +17,9 @@
 */
 import React from "react";
 // nodejs library that concatenates classes
-import classnames from "classnames";
 // reactstrap components
 import {
   Button,
-  Card,
-  CardHeader,
-  CardBody,
-  FormGroup,
-  Form,
-  Input,
-  InputGroupAddon,
-  InputGroupText,
-  InputGroup,
   Modal,
   Row,
   Col
@@ -45,10 +35,8 @@ class Modals extends React.Component {
   render() {
     return (
       <>
-        <h2 className="mt-lg mb-5">
-          <span>Javascript Components</span>
-        </h2>
-        <h3 className="h4 text-success font-weight-bold mb-4">Modals</h3>
+        <br/><br/>
+        <h3 className="h3 text-warning font-weight-bold mb-4">Award</h3>
         <Row>
           <Col md="4">
             <Button
@@ -58,7 +46,7 @@ class Modals extends React.Component {
               type="button"
               onClick={() => this.toggleModal("defaultModal")}
             >
-              Default
+              NH챌린지해커톤 - 장려상
             </Button>
             <Modal
               className="modal-dialog-centered"
@@ -67,7 +55,7 @@ class Modals extends React.Component {
             >
               <div className="modal-header">
                 <h6 className="modal-title" id="modal-title-default">
-                  Type your modal title
+                NH챌린지해커톤
                 </h6>
                 <button
                   aria-label="Close"
@@ -80,22 +68,16 @@ class Modals extends React.Component {
                 </button>
               </div>
               <div className="modal-body">
+                <img alt="nhhack" src=" https://eventusstorage.blob.core.windows.net/evs/Image/nhhackathon/9347/ProjectInfo/Cover/8cd018fc72b94b8185d43dfe2e695be3.jpg" width="250px"></img>
+                <br/><br/>
                 <p>
-                  Far far away, behind the word mountains, far from the
-                  countries Vokalia and Consonantia, there live the blind texts.
-                  Separated they live in Bookmarksgrove right at the coast of
-                  the Semantics, a large language ocean.
+                2019.09
                 </p>
                 <p>
-                  A small river named Duden flows by their place and supplies it
-                  with the necessary regelialia. It is a paradisematic country,
-                  in which roasted parts of sentences fly into your mouth.
+                NH농협은행에서 개최한 '범농협 계열사 연계 서비스 기획 및 개발'을 위한 "NH디지털혁신캠퍼스 챌린지 해커톤"에서 농수산물 확인 원산지 파악 가능 카페 사이렌오더 어플리케이션 '올라'의 서버로 참여하여 장려상을 수상하였습니다.
                 </p>
               </div>
               <div className="modal-footer">
-                <Button color="primary" type="button">
-                  Save changes
-                </Button>
                 <Button
                   className="ml-auto"
                   color="link"
@@ -112,21 +94,20 @@ class Modals extends React.Component {
             <Button
               block
               className="mb-3"
-              color="warning"
+              color="danger"
               type="button"
               onClick={() => this.toggleModal("notificationModal")}
             >
-              Notification
+              Inchon Civic Hack - 장려상
             </Button>
             <Modal
-              className="modal-dialog-centered modal-danger"
-              contentClassName="bg-gradient-danger"
+              className="modal-dialog-centered"
               isOpen={this.state.notificationModal}
               toggle={() => this.toggleModal("notificationModal")}
             >
               <div className="modal-header">
                 <h6 className="modal-title" id="modal-title-notification">
-                  Your attention is required
+                  Inchon Civic Hack 
                 </h6>
                 <button
                   aria-label="Close"
@@ -139,21 +120,19 @@ class Modals extends React.Component {
                 </button>
               </div>
               <div className="modal-body">
-                <div className="py-3 text-center">
-                  <i className="ni ni-bell-55 ni-3x" />
-                  <h4 className="heading mt-4">You should read this!</h4>
-                  <p>
-                    A small river named Duden flows by their place and supplies
-                    it with the necessary regelialia.
+                <img alt="incheonhack" src="https://www.incheon.go.kr/data/editor/20190828/20190828183705.jpg" width="250px"></img>
+                <br/><br/>
+                <p>
+                  2019.11
                   </p>
-                </div>
+                <p>
+                  인천대학교 창업다락에서 인천 도시문제 해결 공공플랫폼 개발대회 인 「2019 인천 시빅 핵페어(2019 Incheon Civic Hack-Fair)」에서 2개월 동안 스마트도시 공공플랫폼을 솝파이트팀으로 참가하여 최종작품을 완성했습니다.
+                  영상크리에이터를 돕는 장소를 소개, 예약을 돕는 플랫폼 LocAin을 출품해 장려상을 수상하였습니다.
+                </p>
               </div>
               <div className="modal-footer">
-                <Button className="btn-white" color="default" type="button">
-                  Ok, Got it
-                </Button>
                 <Button
-                  className="text-white ml-auto"
+                  className="ml-auto"
                   color="link"
                   data-dismiss="modal"
                   type="button"
@@ -161,130 +140,6 @@ class Modals extends React.Component {
                 >
                   Close
                 </Button>
-              </div>
-            </Modal>
-          </Col>
-          <Col md="4">
-            <Button
-              block
-              color="default"
-              type="button"
-              onClick={() => this.toggleModal("formModal")}
-            >
-              Form
-            </Button>
-            <Modal
-              className="modal-dialog-centered"
-              size="sm"
-              isOpen={this.state.formModal}
-              toggle={() => this.toggleModal("formModal")}
-            >
-              <div className="modal-body p-0">
-                <Card className="bg-secondary shadow border-0">
-                  <CardHeader className="bg-white pb-5">
-                    <div className="text-muted text-center mb-3">
-                      <small>Sign in with</small>
-                    </div>
-                    <div className="btn-wrapper text-center">
-                      <Button
-                        className="btn-icon mt-2 mb-2"
-                        color="neutral"
-                        href="#pablo"
-                        onClick={e => e.preventDefault()}
-                      >
-                        <span className="btn-inner--icon mr-1">
-                          <img
-                            alt="..."
-                            src={require("assets/img/icons/common/github.svg")}
-                          />
-                        </span>
-                        <span className="btn-inner--text">Github</span>
-                      </Button>
-                      <Button
-                        className="btn-icon mt-2 mb-2 ml-1"
-                        color="neutral"
-                        href="#pablo"
-                        onClick={e => e.preventDefault()}
-                      >
-                        <span className="btn-inner--icon mr-1">
-                          <img
-                            alt="..."
-                            src={require("assets/img/icons/common/google.svg")}
-                          />
-                        </span>
-                        <span className="btn-inner--text">Google</span>
-                      </Button>
-                    </div>
-                  </CardHeader>
-                  <CardBody className="px-lg-5 py-lg-5">
-                    <div className="text-center text-muted mb-4">
-                      <small>Or sign in with credentials</small>
-                    </div>
-                    <Form role="form">
-                      <FormGroup
-                        className={classnames("mb-3", {
-                          focused: this.state.emailFocused
-                        })}
-                      >
-                        <InputGroup className="input-group-alternative">
-                          <InputGroupAddon addonType="prepend">
-                            <InputGroupText>
-                              <i className="ni ni-email-83" />
-                            </InputGroupText>
-                          </InputGroupAddon>
-                          <Input
-                            placeholder="Email"
-                            type="email"
-                            onFocus={e => this.setState({ emailFocused: true })}
-                            onBlur={e => this.setState({ emailFocused: false })}
-                          />
-                        </InputGroup>
-                      </FormGroup>
-                      <FormGroup
-                        className={classnames({
-                          focused: this.state.passwordFocused
-                        })}
-                      >
-                        <InputGroup className="input-group-alternative">
-                          <InputGroupAddon addonType="prepend">
-                            <InputGroupText>
-                              <i className="ni ni-lock-circle-open" />
-                            </InputGroupText>
-                          </InputGroupAddon>
-                          <Input
-                            placeholder="Password"
-                            type="password"
-                            autoComplete="off"
-                            onFocus={e =>
-                              this.setState({ passwordFocused: true })
-                            }
-                            onBlur={e =>
-                              this.setState({ passwordFocused: false })
-                            }
-                          />
-                        </InputGroup>
-                      </FormGroup>
-                      <div className="custom-control custom-control-alternative custom-checkbox">
-                        <input
-                          className="custom-control-input"
-                          id=" customCheckLogin"
-                          type="checkbox"
-                        />
-                        <label
-                          className="custom-control-label"
-                          htmlFor=" customCheckLogin"
-                        >
-                          <span className="text-muted">Remember me</span>
-                        </label>
-                      </div>
-                      <div className="text-center">
-                        <Button className="my-4" color="primary" type="button">
-                          Sign in
-                        </Button>
-                      </div>
-                    </Form>
-                  </CardBody>
-                </Card>
               </div>
             </Modal>
           </Col>
