@@ -415,10 +415,16 @@ mark,
 
 .img-fluid {
   max-width: 100%;
-  height: auto; }
+  margin-top:auto;
+  margin-bottom:auto;
+}
 
-#test.hover {
-  opacity: 70%;
+.img-fluid:hover {
+  -webkit-transform:scale(1.2);
+  -moz-transform:scale(1.2);
+  -ms-transform:scale(1.2);   
+  -o-transform:scale(1.2);
+  transform:scale(1.2);
 }
 
 .img-thumbnail {

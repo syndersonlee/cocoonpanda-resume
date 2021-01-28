@@ -305,52 +305,56 @@ class Typography extends React.Component {
           </Col>
         </Row>
         <h2 className="mt-lg mb-5">
-          <span>Images</span>
+          <span>사이드 프로젝트 목록</span>
         </h2>
+        
         <Row>
           <Col sm="3" xs="6">
             <small className="d-block text-uppercase font-weight-bold mb-4">
-              Image
+              Project Artoo
             </small>
+            <a href="https://github.com/soptart/Server">
             <img
               alt="..."
               className="img-fluid rounded shadow"
-              src={require("assets/img/theme/team-1-800x800.jpg")}
+              src={require("images/Artoo.png")}
               style={{ width: "150px" }}
             />
+            </a>
           </Col>
           <Col sm="3" xs="6">
             <small className="d-block text-uppercase font-weight-bold mb-4">
-              Circle Image
+              Project LocAin
             </small>
+            <a href="https://github.com/syndersonLEE/LocAinServer">
             <img
               alt="..."
-              className="img-fluid rounded-circle shadow"
-              src={require("assets/img/theme/team-2-800x800.jpg")}
+              className="img-fluid rounded shadow"
+              src={require("images/LocAin.png")}
               style={{ width: "150px" }}
             />
+            </a>
           </Col>
           <Col className="mt-5 mt-sm-0" sm="3" xs="6">
             <small className="d-block text-uppercase font-weight-bold mb-4">
-              Raised
+              Project 전하
             </small>
             <img
-              id="test"
               alt="..."
               className="img-fluid rounded shadow-lg"
-              src={require("assets/img/theme/team-3-800x800.jpg")}
+              src={require("images/전하.png")}
               style={{ width: "150px" }}
               onMouseOver="this.innerHTML='test'"
             />
           </Col>
           <Col className="mt-5 mt-sm-0" sm="3" xs="6">
             <small className="d-block text-uppercase font-weight-bold mb-4">
-              Circle Raised
+              Project 올라
             </small>
             <img
               alt="..."
-              className="img-fluid rounded-circle shadow-lg"
-              src={require("assets/img/theme/team-4-800x800.jpg")}
+              className="img-fluid rounded shadow-lg"
+              src={require("images/올라.png")}
               style={{ width: "150px" }}
             />
           </Col>
