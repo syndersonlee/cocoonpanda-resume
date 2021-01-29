@@ -276,7 +276,7 @@ class TabsSection extends React.Component {
                   <NavLink
                     aria-selected={this.state.thirdTabs === 1}
                     className={classnames("mb-sm-3 mb-md-0", {
-                      active: this.state.iconTabs === 1
+                      active: this.state.thirdTabs === 1
                     })}
                     onClick={e => this.toggleNavs(e, "thirdTabs", 1)}
                     href="#pablo"
@@ -289,7 +289,7 @@ class TabsSection extends React.Component {
                   <NavLink
                     aria-selected={this.state.thirdTabs === 2}
                     className={classnames("mb-sm-3 mb-md-0", {
-                      active: this.state.iconTabs === 2
+                      active: this.state.thirdTabs === 2
                     })}
                     onClick={e => this.toggleNavs(e, "thirdTabs", 2)}
                     href="#pablo"
@@ -302,7 +302,7 @@ class TabsSection extends React.Component {
                   <NavLink
                     aria-selected={this.state.thirdTabs === 3}
                     className={classnames("mb-sm-3 mb-md-0", {
-                      active: this.state.iconTabs === 3
+                      active: this.state.thirdTabs === 3
                     })}
                     onClick={e => this.toggleNavs(e, "thirdTabs", 3)}
                     href="#pablo"

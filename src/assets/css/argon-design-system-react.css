@@ -21,6 +21,10 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
+ @import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+ @import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
 :root {
   --blue: #5e72e4;
   --indigo: #5603ad;
@@ -73,7 +77,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Nanum Gothic',"NanumSquare", "Open Sans", sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
