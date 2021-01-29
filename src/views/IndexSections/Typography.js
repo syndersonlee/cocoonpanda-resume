@@ -136,7 +136,7 @@ class Typography extends React.Component {
             <img
               alt="..."
               className="img-fluid rounded shadow-lg"
-              src={require("images/전하.png")}
+              src={require("images/jeonha.png")}
               style={{ width: "150px" }}
               onMouseOver="this.innerHTML='test'"
             />
@@ -150,7 +150,7 @@ class Typography extends React.Component {
             <img
               alt="..."
               className="img-fluid rounded shadow-lg"
-              src={require("images/올라.png")}
+              src={require("images/orla.png")}
               style={{ width: "150px" }}
             />
             </a>
@@ -167,7 +167,7 @@ class Typography extends React.Component {
             <img
               alt="..."
               className="img-fluid rounded-circle shadow-lg"
-              src={require("images/쉬자.png")}
+              src={require("images/get-rest.png")}
               style={{ width: "150px" }}
               onMouseOver="this.innerHTML='test'"
             />

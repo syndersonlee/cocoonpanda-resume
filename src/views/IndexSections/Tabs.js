@@ -219,7 +219,7 @@ class TabsSection extends React.Component {
                       <img
                         alt="..."
                         className="img-fluid rounded shadow-lg"
-                        src={require("images/뭐라하지.png")}
+                        src={require("images/what-to-do.png")}
                         style={{ width: "150px" }}
                         onMouseOver="this.innerHTML='test'"
                       />
