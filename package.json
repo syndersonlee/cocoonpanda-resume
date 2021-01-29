@@ -27,7 +27,7 @@
   "bugs": {
     "url": "https://github.com/creativetimofficial/argon-design-system-react/issues"
   },
-  "homepage": "http://syndersonlee.github.io/rereact",
+  "homepage": "https://cocoonpanda.dev/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
