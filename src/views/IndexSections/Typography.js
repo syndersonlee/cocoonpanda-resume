@@ -27,7 +27,7 @@ class Typography extends React.Component {
         <h3 className="h3 text-danger font-weight-bold mt-md">Experience</h3>
         <Row className="py-3 align-items-center">
           <Col sm="3">
-            <img alt="sopt" src="http://sopt.org/wp/wp-content/uploads/2020/08/LOGO.png" width="150px"></img>
+            <img alt="sopt" src={require("images/sopt.png")} width="150px"></img>
           </Col>
           <Col sm="9">
             2018.09 ~ 2019.08
@@ -47,7 +47,7 @@ class Typography extends React.Component {
         </Row>
         <Row className="py-3 align-items-center">
           <Col sm="3">
-            <img alt="nexters" src="http://teamnexters.com/img/18th/18th-logo-Black.png" width="150px"></img>
+            <img alt="nexters" src={require("images/nexters.png")} width="150px"></img>
           </Col>
           <Col sm="9">
             2020.06 – NOW<br/>
