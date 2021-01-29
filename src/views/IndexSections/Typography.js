@@ -26,8 +26,10 @@ class Typography extends React.Component {
       <>
         <h3 className="h3 text-danger font-weight-bold mt-md">Experience</h3>
         <Row className="py-3 align-items-center">
-          <Col sm="3">
-            <img alt="sopt" src={require("images/sopt.png")} width="150px"></img>
+          <Col className="mb-5" sm="3">
+            <a href="http://sopt.org">
+              <img className="img-fluid" alt="sopt" src={require("images/sopt.png")} width="150px"></img>
+            </a>
           </Col>
           <Col sm="9">
             2018.09 ~ 2019.08
@@ -36,8 +38,10 @@ class Typography extends React.Component {
           </Col>
         </Row>
         <Row className="py-3 align-items-center">
-          <Col sm="3">
-            <img alt="swm" src="https://swmaestro.org/static/sw/images/logo_copy.png" width="150px"></img>
+          <Col className="mb-5" sm="3">
+            <a href="https://swmaestro.org/">
+              <img className="img-fluid" alt="swm" src="https://swmaestro.org/static/sw/images/logo_copy.png" width="150px"></img>
+            </a>
           </Col>
           <Col sm="9">
             2019.06 ~ 2019.11
@@ -46,19 +50,23 @@ class Typography extends React.Component {
           </Col>
         </Row>
         <Row className="py-3 align-items-center">
-          <Col sm="3">
-            <img alt="nexters" src={require("images/nexters.png")} width="150px"></img>
+          <Col className="mb-5" sm="3">
+            <a href="https://neuroacs.com/">
+              <img className="img-fluid" alt="nexters" src={require("images/nexters.png")} width="150px"></img>
+            </a>
           </Col>
           <Col sm="9">
             2020.06 – NOW<br/>
-            <p><br/>IT 연합동아리 Nexters
+            <p><br/>개발자와 디자이너를 위한 IT 연합동아리 Nexters
             <br/>17, 18기</p>
           </Col>
         </Row>
         <h3 className="h3 text-primary font-weight-bold mt-md">Work Experience</h3>
         <Row className="py-3 align-items-center">
-          <Col sm="3">
-            <img alt="neuroacs" src="https://neuroacs.com/img/logo_neuro_big.png" width="150px"></img>
+          <Col className="mb-5" sm="3">
+            <a href="https://neuroacs.com/">
+              <img className="img-fluid" alt="neuroacs" src="https://neuroacs.com/img/logo_neuro_big.png" width="150px"></img>
+            </a>
           </Col>
           <Col sm="9">
             2018.06 – 2018.08<br/>
@@ -70,11 +78,12 @@ class Typography extends React.Component {
           </Col>
         </Row>
         <Row className="py-3 align-items-center">
-          <Col sm="3">
-            <img alt="concat" src="https://concat.kr/images/concat-black-logo.png" width="150px"></img>
+          <Col className="mb-5" sm="3">
+            <a href="https://concat.kr/">
+              <img className="img-fluid" alt="concat" src="https://concat.kr/images/concat-black-logo.png" width="150px"></img>
+            </a>
           </Col>
           <Col sm="9">
-            
             2018.12 – 2019.06<br/>
             CONCAT INC. React Native 개발 인턴<br/><br/>
             <p>
@@ -84,8 +93,10 @@ class Typography extends React.Component {
           </Col>
         </Row>
         <Row className="py-3 align-items-center">
-          <Col sm="3">
-            <img alt="autoever" src="https://www.hyundai.co.kr/images/affiliates/others/img-autoever-logo.gif" width="150px"></img>
+          <Col className="mb-5" sm="3">
+            <a href="https://www.hyundai-autoever.com/">
+              <img className="img-fluid" alt="autoever" src="https://www.hyundai.co.kr/images/affiliates/others/img-autoever-logo.gif" width="150px"></img>
+            </a>
           </Col>
           <Col sm="9">
             2020.03 – NOW<br/>
