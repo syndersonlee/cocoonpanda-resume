@@ -117,10 +117,11 @@ class Typography extends React.Component {
             <p className="d-block text-uppercase font-weight-bold mb-4">
               Artoo
             </p>
+            <p className="small">학생 예술 작가들의 작품 판매 앱</p>
             <a href="https://github.com/soptart/Server">
             <img
               alt="..."
-              className="img-fluid rounded shadow"
+              className="mt-3 img-fluid rounded shadow"
               src={require("images/Artoo.png")}
               style={{ width: "150px" }}
             />
@@ -130,10 +131,11 @@ class Typography extends React.Component {
             <p className="d-block text-uppercase font-weight-bold mb-4">
               LocAin
             </p>
+            <p className="small">인천시 유휴 공간 대여 앱</p>
             <a href="https://github.com/syndersonLEE/LocAinServer">
             <img
               alt="..."
-              className="img-fluid rounded shadow"
+              className="mt-3 img-fluid rounded shadow"
               src={require("images/LocAin.png")}
               style={{ width: "150px" }}
             />
@@ -143,10 +145,11 @@ class Typography extends React.Component {
             <p className="d-block text-uppercase font-weight-bold mb-4">
               전하
             </p>
+            <p className="small">서울시의 전통체험 / 한옥 예약 앱</p>
             <a href="https://github.com/JeonHa/JeonHa-Server">
             <img
               alt="..."
-              className="img-fluid rounded shadow-lg"
+              className="mt-3 img-fluid rounded shadow-lg"
               src={require("images/jeonha.png")}
               style={{ width: "150px" }}
               onMouseOver="this.innerHTML='test'"
@@ -157,10 +160,11 @@ class Typography extends React.Component {
             <p className="d-block text-uppercase font-weight-bold mb-4">
               올라
             </p>
+            <p className="small">NH농협 카페 사이렌오더 / 생산지 추적 앱</p>
             <a href="https://github.com/OrlaProject/Orla_Server">
             <img
               alt="..."
-              className="img-fluid rounded shadow-lg"
+              className="mt-3 img-fluid rounded shadow-lg"
               src={require("images/orla.png")}
               style={{ width: "150px" }}
             />
@@ -174,10 +178,11 @@ class Typography extends React.Component {
             <p className="d-block text-uppercase font-weight-bold mb-4">
               쉬자
             </p>
+            <p className="small">취준생을 위한 정보 제공 앱</p>
             <a href="https://github.com/soptrest/soptgetrestserver">
             <img
               alt="..."
-              className="img-fluid rounded-circle shadow-lg"
+              className="mt-3 img-fluid rounded-circle shadow-lg"
               src={require("images/get-rest.png")}
               style={{ width: "150px" }}
               onMouseOver="this.innerHTML='test'"
@@ -188,10 +193,11 @@ class Typography extends React.Component {
             <p className="d-block text-uppercase font-weight-bold mb-4">
                 짤내투어
             </p>
+            <p className="small">간단하게 만드는 우리만의 짤 생성기 앱</p>
             <a href="https://github.com/amathon-2019/GodokChatting">
             <img
               alt="..."
-              className="img-fluid rounded shadow"
+              className="mt-3 img-fluid rounded shadow"
               src={require("images/zzal.png")}
               style={{ width: "150px" }}
             />
@@ -201,14 +207,33 @@ class Typography extends React.Component {
             <p className="d-block text-uppercase font-weight-bold mb-4">
               카툰월드
             </p>
+            <p className = "small">사용자가 만들어가는 만화 앱</p>
             <a href="https://github.com/kcartoonworld/kcartoonserver">
             <img
               alt="..."
-              className="img-fluid rounded shadow"
+              className="mt-3 img-fluid rounded shadow"
               src={require("images/cartoon.png")}
               style={{ width: "150px" }}
             />
             </a>
+          </Col>
+          <Col sm="3" xs="6">
+            <p className="d-block text-uppercase font-weight-bold mb-4">
+              LetsTouch
+            </p>
+            <p className="small">손 마디 압력 센서, 밴딩 센서 및 가속도 센서를 이용한 장갑 디바이스</p>
+            <a href="https://github.com/syndersonLEE/LetsTouch">
+            <img
+              alt="..."
+              className="img-fluid rounded shadow"
+              src={require("images/letstouch.png")}
+              style={{ width: "150px" }}
+            />
+            </a>
+            <video muted autoplay loop>
+              <source src="images/letstouch_final.mp4" type="video/mp4"></source>
+              <strong>No support on browser</strong>
+            </video>
           </Col>
         </Row>
       </>
