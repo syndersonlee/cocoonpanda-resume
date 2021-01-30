@@ -219,7 +219,7 @@ class Typography extends React.Component {
           </Col>
           <Col sm="3" xs="6">
             <p className="d-block text-uppercase font-weight-bold mb-4">
-              LetsTouch
+              Lets-Touch
             </p>
             <p className="small">손 마디 압력 센서, 밴딩 센서 및 가속도 센서를 이용한 장갑 디바이스</p>
             <a href="https://github.com/syndersonLEE/LetsTouch">
@@ -230,12 +230,16 @@ class Typography extends React.Component {
               style={{ width: "150px" }}
             />
             </a>
-            <video muted autoplay loop>
-              <source src="images/letstouch_final.mp4" type="video/mp4"></source>
-              <strong>No support on browser</strong>
-            </video>
           </Col>
         </Row>
+        <div className="py-3 align-items-center">
+          <p className="font-weight-bold">LetsTouch 시연영상</p>
+          <div>
+            <video style={{width: "500px"}} src={require('images/letstouch_final.mp4')} muted autoplay controls>
+              No support video in browser
+            </video>
+          </div>
+        </div>
       </>
     );
   }
