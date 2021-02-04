@@ -137,7 +137,7 @@ class TabsSection extends React.Component {
                     <p>나의 역할</p>
                     <p className="description">
                       개발 프로젝트 리더를 맡아서 전체 개발 IA를 설계하고 DB세팅을 담당하였습니다. 
-                      AWS를 이용한 인프라 세팅과 git action 연동을 구현하였습니다.
+                      AWS를 이용한 인프라 세팅 및 프로젝트 세팅을 구현하였습니다.
                       소개팅 매칭에 필요한 알고리즘 개발과 소개팅 매칭 - 실패 - 연결 간 흘러가는 비즈니스 코드를 작성하였습니다.
                     </p>
                     <p>프레임워크 선택의 이유</p>
@@ -247,7 +247,7 @@ class TabsSection extends React.Component {
                     </p>
                     <p>프레임워크 선택의 이유</p>
                     <p className="description">
-                      Javascript는 class와 타입지정이 없기에 자바에서 흔히 쓰이는 디자인 패턴을 적용하기 어려웠습니다.
+                      Javascript는 자바에 비해 class 사용이 어렵고 타입지정이 없기에 자바에서 흔히 쓰이는 디자인 패턴을 적용하기 어려웠습니다.
                       디자인 패턴을 프로젝트 구조에 적용하기 위해서 Domain 별로 싱글턴패턴으로 작업하였습니다.
                       비즈니스 로직 상 큰 어려움은 없었지만 새로운 프레임워크를 통해 선택지를 넓히고자 해당 프레임워크를 선택하였습니다.
                     </p>
