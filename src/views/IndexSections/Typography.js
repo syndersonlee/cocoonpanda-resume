@@ -99,7 +99,7 @@ class Typography extends React.Component {
             </a>
           </Col>
           <Col sm="9">
-            2020.03 – NOW<br/>
+            2020.03 – 2021.02<br/>
             현대오토에버 경영데이터분석팀<br/><br/>
             <p>
             현대-기아 판매법인 데이터 무결성 관리<br/>
