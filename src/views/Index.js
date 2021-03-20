@@ -24,11 +24,12 @@ import { Container} from "reactstrap";
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 
 // index page sections
-import Hero from "./IndexSections/Hero.js";
-import Buttons from "./IndexSections/Buttons.js";
-import Tabs from "./IndexSections/Tabs.js";
-import Typography from "./IndexSections/Typography.js";
-import Modals from "./IndexSections/Modals.js";
+import TopSection from "./IndexSections/TopSection.js";
+import Mainproject from "./IndexSections/Mainproject.js";
+import Awards from "./IndexSections/Awards.js";
+import Experience from "./IndexSections/Experience.js";
+import Skill from "./IndexSections/Skill.js";
+import Sideproject from "./IndexSections/Sideproject.js";
 
 class Index extends React.Component {
   componentDidMount() {
@@ -41,15 +42,16 @@ class Index extends React.Component {
       <>
         <DemoNavbar />
         <main ref="main">
-          <Hero />
+          <TopSection />
           <section className="section section-components">
             <Container>
-              <Tabs />
-              <Modals />
-              <Typography />
+              <Mainproject />
+              <Sideproject />
+              <Awards />
+              <Experience />
             </Container>
           </section>
-          <Buttons />
+          <Skill />
         </main>
       </>
     );

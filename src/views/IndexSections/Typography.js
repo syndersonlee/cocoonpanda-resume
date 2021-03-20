@@ -20,7 +20,7 @@ import React from "react";
 // reactstrap components
 import { Row, Col } from "reactstrap";
 
-class Typography extends React.Component {
+class Experience extends React.Component {
   render() {
     return (
       <>
@@ -245,4 +245,4 @@ class Typography extends React.Component {
   }
 }
 
-export default Typography;
+export default Experience;

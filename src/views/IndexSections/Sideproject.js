@@ -25,8 +25,9 @@ class Sideproject extends React.Component {
     return (
       <>
         <div id="sideproject-cmp" className="container">
+          <div class="small float-right" >이미지 클릭시 깃허브 페이지로 이동합니다</div>
           <h2 className="h3 text-warning font-weight-bold mt-lg mb-5">
-            <span>사이드 프로젝트 목록</span>
+            <span>기타 사이드 프로젝트 목록</span>
           </h2>
           <Row>
             <Col sm="3" xs="6">
