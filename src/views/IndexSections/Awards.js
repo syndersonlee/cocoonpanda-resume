@@ -38,6 +38,7 @@ class Awards extends React.Component {
         <br/><br/>
         <h3 className="h3 text-warning font-weight-bold mb-4">Award</h3>
         <div class="small float-right" >버튼 클릭시 상세 페이지를 확인 가능합니다</div>
+        <br></br>
         <Row>
           <Col md="4">
             <Button

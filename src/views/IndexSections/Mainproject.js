@@ -47,8 +47,9 @@ class Mainproject extends React.Component {
   render() {
     return (
       <>
-        <div class="small float-right" >이미지 클릭시 깃허브 페이지로 이동합니다</div>
         <h3 className="h3 text-success font-weight-bold mb-4">My Backend Project</h3>
+        <div class="small float-right" >이미지 클릭시 깃허브 페이지로 이동합니다</div>
+        <br></br>
         <Row className="justify-content-start">
           <Col lg="6">
             {/* Tabs with icons */}
