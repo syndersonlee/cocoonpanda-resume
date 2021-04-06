@@ -42,17 +42,20 @@ class Experience extends React.Component {
             <Col sm="9">
               <h5>현대오토에버 경영데이터분석팀</h5>
               <p>2020.03 – 2021.02</p>
-              <li>
-                현대/기아 해외 판매 법인 데이터 관리 / 경영층, 실무자 대상 경영레포트 대시보드 개발 - JSP / Spring
-              </li>
-              <li>
-                Oracle / Tibero Database 데이터와 현지 database 간의 데이터 무결성을 유지
-              </li>
-              <li> 
-                본사의 요청에 따른 데이터 / 로직 / 대시보드 화면 변경 작업을 Informatica / SAP 솔루션 및 DDL, DML을 쿼리 주입을 통해 진행
-              </li>
-              <br></br>
-              SKILLS : JSP(전자정부프레임워크) / Oracle, Tibero / SAP BW / Informatica PowerCenter
+              <div className="mb-4">
+                <p>현대/기아 해외 판매 법인 데이터 관리 / 경영층, 실무자 대상 경영레포트 대시보드 개발</p>
+                <li><b>JSP / JQuery</b>를 활용하여 웹 SSR 기반 웹 환경 구축 / RmateGrid.js 및 D3.js를 활용하여 차트 개발</li>
+                <li>Jeus Server로 Web Server 구동</li>
+                <li><b>Spring / myBatis</b>로 <b>Oracle / Tibero DB</b>에서 데이터를 가져오는 Servlet 생성</li>
+              </div>
+              <div className="mb-4">
+                <p>Oracle / Tibero DB 데이터와 현지 DB 간의 데이터 무결성을 유지</p>
+                <li>본사 - 해외 법인 간 데이터 확인/변경 요청에 필요한 Oracle / Tibero API 개발</li>
+                <li>본사의 요청에 따른 로직 변경 요청에 대한 Informatica / SAP 솔루션의 Transformation 변경</li>
+              </div>
+              <div>
+                <b>SKILLS : JSP(전자정부프레임워크) / Spring Framework / MyBatis / Jeus Server / JQuery / Oracle, Tibero / SAP BW</b>
+              </div>
             </Col>
           </Row>
 
@@ -74,14 +77,14 @@ class Experience extends React.Component {
               <p>2018.12 – 2019.06</p>
               <li>
                 미세먼지 데이터 제공 및 상품 판매 플랫폼 어플리케이션에 들어가는
-                View를 React Native로 개발 어플리케이션으로 개발
+                View를 <b>React Native</b>로 개발 어플리케이션으로 개발
               </li>
               <li>
-                GCP의 Cloud Function / Node.js를 활용하여 Serverless로
+                GCP의 <b>Cloud Function / Node.js</b>를 활용하여 Serverless로
                 크롤링으로 DB에 저장하는 API를 개발
               </li>
               <br></br>
-              SKILLS : React Native / React Native Router / JSX / Node.js / Google Cloud Function
+              <b>SKILLS : React Native / React Native Router / JSX / Node.js / Google Cloud Function</b>
             </Col>
           </Row>
           <br />
@@ -100,15 +103,15 @@ class Experience extends React.Component {
               <h5>㈜Neuro Associates 웹 개발 인턴</h5>
               <p>2018.06 – 2018.08</p>
               <li>
-                D3.js / Billboard.js / Toast.UI / Chart.js 등의 차트
-                라이브러리를 사용해서 클라이언트가 요구한 샘플을 작성{" "}
+                <b>D3.js / Billboard.js / Toast.UI / Chart.js</b> 등의 차트
+                라이브러리를 사용해서 클라이언트가 요구한 샘플을 작성
               </li>
               <li>
                 차트의 로딩 속도 및 각 라이브러리로 만들 수 있는 차트를 분석한
                 보고서 제작
               </li>
               <br></br>
-              SKILLS : Javascript / Typescript / D3.js / Billboard.js
+              <b>SKILLS : Javascript / Typescript / D3.js / Billboard.js</b>
             </Col>
           </Row>
           <h3 className="h3 text-danger font-weight-bold mt-md">Experience</h3>
@@ -131,7 +134,7 @@ class Experience extends React.Component {
                 <ul>
                   <li>상품 주문 관리 시스템 개발</li>
                   <li>판매 상품 CRUD 개발</li>
-                  <li>Spring Boot / AWS EC2, RDS, S3</li>
+                  <li><b>Spring Boot / MyBatis / AWS EC2, RDS, S3 / MySQL</b></li>
                 </ul>
               </li>
               <li>
@@ -139,14 +142,14 @@ class Experience extends React.Component {
                 <ul>
                   <li>사람인 채용 공고 데이터 크롤링 개발</li>
                   <li>JWT 인증 페이지 / 메인 페이지 / 채용 공고 페이지 CRUD 개발</li>
-                  <li>Express.js / AWS EC2, RDS, S3, Lambda</li>
+                  <li><b>Node.js / Express.js / AWS EC2, RDS, S3, Lambda / MySQL</b></li>
                 </ul>
               </li>
               <li>
                 25기 비활동 프로젝트 참여 - (AppJam Project - <b>뭐라하지</b>)
                 <ul>
                   <li>채팅 서비스 개발 / 소개팅 매칭 배치 알고리즘 개발</li>
-                  <li>Express.js / AWS EC2, RDS, S3, Lambda / Google Firestore</li>
+                  <li><b>Node.js / Express.js / AWS EC2, RDS, S3, Lambda / Google Firestore / MySQL</b></li>
                 </ul>
               </li>
             </Col>

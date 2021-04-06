@@ -25,11 +25,11 @@ class Skill extends React.Component {
     return (
       <>
         <section
-          className="section section-components pb-0"
+          className="section section-components pb-0 mb-8"
           id="section-components"
         >
           <Container>
-            <h2 className="h3 text-success font-weight-bold mb-5">
+            <h2 className="h3 text-success font-weight-bold mb-3">
               <span>SKILLS</span>
             </h2>
             <Row className="justify-content-center">
@@ -136,34 +136,6 @@ class Skill extends React.Component {
                   <PaginItem active="2"></PaginItem>
                   <br />
                   <small>CRUD를 활용한 Servlet 구현 및 화면 개발 가능</small>
-                  <br />
-                  <br />
-                </div>
-              </Col>
-              <Col lg="12">
-                <div className="mb-3 mt-5">
-                  <h5 className="text-uppercase font-weight-bold">Extra</h5>
-                </div>
-                <div class="skill-set">
-                  <Button className="btn-1" color="danger" type="button">
-                    Unity
-                  </Button>
-                  <PaginItem active="1"></PaginItem>
-                  <br />
-                  <small>
-                    오브젝트 생성 및 수치를 부여하여 3D 기초 모델링 가능
-                  </small>
-                  <br />
-                  <br />
-                  <Button className="btn-1" color="primary" type="button">
-                    Informatica
-                  </Button>
-                  <PaginItem active="1"></PaginItem>
-                  <br />
-                  <small>
-                    SAP BW에서 들어오는 데이터를 Oracle DB로 이관하기 위한
-                    Transformation 개발
-                  </small>
                   <br />
                   <br />
                 </div>
