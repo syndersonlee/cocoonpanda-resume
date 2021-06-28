@@ -28,6 +28,30 @@ class Experience extends React.Component {
           <h3 className="h3 text-primary font-weight-bold mt-md">
             Work Experience
           </h3>
+          <br />
+          <Row className="py-3 align-items-center">
+            <Col className="mb-5" sm="3">
+              <a href="https://www.shinhan.com">
+                <img
+                  className="img-fluid"
+                  alt="shinhan-bank"
+                  src="https://blog.kakaocdn.net/dn/Iz97w/btqyXx4yZhO/3myJG9cf8ioKZ67PuYfeIK/img.jpg"
+                  width="200px"
+                ></img>
+              </a>
+            </Col>
+            <Col sm="9">
+              <h5>신한은행 ICT 개발</h5>
+              <p>2021-07-12 ~ NOW</p>
+              <li>
+                미정
+              </li>
+              <br></br>
+              <b>SKILLS : 미정</b>
+            </Col>
+          </Row>
+          <br/>
+
           <Row className="py-3 align-items-center">
             <Col className="mb-5" sm="3">
               <a href="https://www.hyundai-autoever.com/">
@@ -35,7 +59,7 @@ class Experience extends React.Component {
                   className="img-fluid"
                   alt="autoever"
                   src="https://www.hyundai.co.kr/images/affiliates/others/img-autoever-logo.gif"
-                  width="150px"
+                  width="200px"
                 ></img>
               </a>
             </Col>
