@@ -27,9 +27,10 @@ import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import TopSection from "./IndexSections/TopSection.js";
 import Mainproject from "./IndexSections/Mainproject.js";
 import Awards from "./IndexSections/Awards.js";
-import Experience from "./IndexSections/Experience.js";
+import Career from "./IndexSections/Career.js";
 import Skill from "./IndexSections/Skill.js";
 import Sideproject from "./IndexSections/Sideproject.js";
+import Experience from "./IndexSections/Experience.js";
 
 class Index extends React.Component {
   componentDidMount() {
@@ -45,10 +46,11 @@ class Index extends React.Component {
           <TopSection />
           <section className="section section-components">
             <Container>
+              <Career />
+              <Experience />
               <Mainproject />
               <Sideproject />
               <Awards />
-              <Experience />
             </Container>
           </section>
           <Skill />

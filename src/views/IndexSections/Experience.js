@@ -25,120 +25,7 @@ class Experience extends React.Component {
     return (
       <>
         <div id="exp-cmp" className="container">
-          <h3 className="h3 text-primary font-weight-bold mt-md">
-            Work Experience
-          </h3>
-          <br />
-          <Row className="py-3 align-items-center">
-            <Col className="mb-5" sm="3">
-              <a href="https://www.shinhan.com">
-                <img
-                  className="img-fluid"
-                  alt="shinhan-bank"
-                  src="https://blog.kakaocdn.net/dn/Iz97w/btqyXx4yZhO/3myJG9cf8ioKZ67PuYfeIK/img.jpg"
-                  width="200px"
-                ></img>
-              </a>
-            </Col>
-            <Col sm="9">
-              <h5>신한은행 ICT 개발</h5>
-              <p>2021-07-12 ~ NOW</p>
-              <li>
-                미정
-              </li>
-              <br></br>
-              <b>SKILLS : 미정</b>
-            </Col>
-          </Row>
-          <br/>
-
-          <Row className="py-3 align-items-center">
-            <Col className="mb-5" sm="3">
-              <a href="https://www.hyundai-autoever.com/">
-                <img
-                  className="img-fluid"
-                  alt="autoever"
-                  src="https://www.hyundai.co.kr/images/affiliates/others/img-autoever-logo.gif"
-                  width="200px"
-                ></img>
-              </a>
-            </Col>
-            <Col sm="9">
-              <h5>현대오토에버 경영데이터분석팀</h5>
-              <p>2020.03 – 2021.02</p>
-              <div className="mb-4">
-                <p>현대/기아 해외 판매 법인 데이터 관리 / 경영층, 실무자 대상 경영레포트 대시보드 개발</p>
-                <li><b>JSP / JQuery</b>를 활용하여 웹 SSR 기반 웹 환경 구축 / RmateGrid.js 및 D3.js를 활용하여 차트 개발</li>
-                <li>Jeus Server로 Web Server 구동</li>
-                <li><b>Spring / myBatis</b>로 <b>Oracle / Tibero DB</b>에서 데이터를 가져오는 Servlet 생성</li>
-              </div>
-              <div className="mb-4">
-                <p>Oracle / Tibero DB 데이터와 현지 DB 간의 데이터 무결성을 유지</p>
-                <li>본사 - 해외 법인 간 데이터 확인/변경 요청에 필요한 Oracle / Tibero API 개발</li>
-                <li>본사의 요청에 따른 로직 변경 요청에 대한 Informatica / SAP 솔루션의 Transformation 변경</li>
-              </div>
-              <div>
-                <b>SKILLS : JSP(전자정부프레임워크) / Spring Framework / MyBatis / Jeus Server / JQuery / Oracle, Tibero / SAP BW</b>
-              </div>
-            </Col>
-          </Row>
-
-          <br />
-
-          <Row className="py-3 align-items-center">
-            <Col className="mb-5" sm="3">
-              <a href="https://concat.kr/">
-                <img
-                  className="img-fluid"
-                  alt="concat"
-                  src="https://concat.kr/images/concat-black-logo.png"
-                  width="150px"
-                ></img>
-              </a>
-            </Col>
-            <Col sm="9">
-              <h5>CONCAT INC. React Native 개발 인턴</h5>
-              <p>2018.12 – 2019.06</p>
-              <li>
-                미세먼지 데이터 제공 및 상품 판매 플랫폼 어플리케이션에 들어가는
-                View를 <b>React Native</b>로 개발 어플리케이션으로 개발
-              </li>
-              <li>
-                GCP의 <b>Cloud Function / Node.js</b>를 활용하여 Serverless로
-                크롤링으로 DB에 저장하는 API를 개발
-              </li>
-              <br></br>
-              <b>SKILLS : React Native / React Native Router / JSX / Node.js / Google Cloud Function</b>
-            </Col>
-          </Row>
-          <br />
-          <Row className="py-3 align-items-center">
-            <Col className="mb-5" sm="3">
-              <a href="https://neuroacs.com/">
-                <img
-                  className="img-fluid"
-                  alt="neuroacs"
-                  src="https://neuroacs.com/img/logo_neuro_big.png"
-                  width="150px"
-                ></img>
-              </a>
-            </Col>
-            <Col sm="9">
-              <h5>㈜Neuro Associates 웹 개발 인턴</h5>
-              <p>2018.06 – 2018.08</p>
-              <li>
-                <b>D3.js / Billboard.js / Toast.UI / Chart.js</b> 등의 차트
-                라이브러리를 사용해서 클라이언트가 요구한 샘플을 작성
-              </li>
-              <li>
-                차트의 로딩 속도 및 각 라이브러리로 만들 수 있는 차트를 분석한
-                보고서 제작
-              </li>
-              <br></br>
-              <b>SKILLS : Javascript / Typescript / D3.js / Billboard.js</b>
-            </Col>
-          </Row>
-          <h3 className="h3 text-danger font-weight-bold mt-md">Experience</h3>
+        <h3 className="h3 text-danger font-weight-bold mt-md">Experience</h3>
           <Row className="py-3 align-items-center">
             <Col className="mb-5" sm="3">
               <a href="http://sopt.org">
@@ -221,6 +108,8 @@ class Experience extends React.Component {
               <li>18기</li>
             </Col>
           </Row>
+          <br></br>
+          <br></br>
         </div>
       </>
     );

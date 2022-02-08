@@ -112,9 +112,7 @@ class Mainproject extends React.Component {
                   <TabPane tabId="iconTabs1">
                     <p>
                     영화 관심사를 기반으로 상호 간의 소개팅을 매칭시켜주는 어플리케이션입니다.
-                    동아리 해커톤에서 3주 동안 서비스 프로토타입을 개발하였습니다.
-                    프로토타입 구현 및 시현을 위해서 최다 매칭을 위하여
-                    이분 매칭,DFS 그리고 랜덤 순서 & 필터링을 적용하였습니다.
+                    관심사를 기반으로 하여 매칭을 중개해줍니다. 
                     </p>
                     <a href="https://github.com/TeamMoBo/plot-server">
                       <img
@@ -138,7 +136,7 @@ class Mainproject extends React.Component {
                   <TabPane tabId="iconTabs3">
                     <p>나의 역할</p>
                     <p className="description">
-                      개발 프로젝트 리더를 맡아서 전체 개발 IA를 설계하고 DB세팅을 담당하였습니다. 
+                      개발 프로젝트 리더를 맡아서 전체 개발 IA를 설계하고 DB-WAS 구축을 담당하였습니다. 
                       AWS를 이용한 인프라 세팅 및 프로젝트 세팅을 구현하였습니다.
                       소개팅 매칭에 필요한 알고리즘 개발과 소개팅 매칭 - 실패 - 연결 간 흘러가는 비즈니스 코드를 작성하였습니다.
                     </p>
@@ -213,9 +211,8 @@ class Mainproject extends React.Component {
                 <TabContent activeTab={"plainTabs" + this.state.plainTabs}>
                   <TabPane tabId="plainTabs1">
                     <p>
-                    연말/연초에 어떤 인사말을 보내지? 고민하던 시간이 많았습니다
-                    그런 문제를 소프트웨어적으로 해결해보고 개발 스펙트럼을 넓히고자 만들었습니다.
-                    어플리케이션을 통해 연말연초에 자주 쓰는 단어를 제공하고 이를 상황별로 조합하여 인삿말을 제공하는 어플리케이션을 만들었습니다.
+                    인사말 자동 생성 어플리케이션입니다.
+                    연말연초에 자주 쓰는 단어를 제공하고 이를 상황별로 조합하여 인삿말을 제공해주는 기능을 제공합니다.
                     </p>
                     <a href="https://github.com/Nexters/what-do-you-say-server">
                       <img
@@ -321,8 +318,7 @@ class Mainproject extends React.Component {
                   <TabPane tabId="thirdTabs1">
                     <p>
                     레터링 케이크를 판매하기 위한 어플리케이션 입니다.
-                    개발 실력 향상을 위해 프로토타입 개발에 도움을 주고 있습니다
-                    위치, 지도, 검색어 기반으로 레터링 케이크 가게를 연결해주는 어플리케이션입니다.
+                    위치, 지도, 검색어 기반으로 레터링 케이크 가게를 연결해주는 기능을 제공합니다.
                     </p>
                     <a href="https://github.com/project-cake-it/api-server">
                       <img
@@ -347,6 +343,7 @@ class Mainproject extends React.Component {
                     데이터베이스 : MySQL
                     </p>
                     <p class="description">https://github.com/project-cake-it/api-server</p>
+                    <p class="description">https://play.google.com/store/apps/details?id=com.cakeit.cakitandroid</p>
                   </TabPane>
                   <TabPane tabId="thirdTabs3">
                   <p>나의 역할</p>
