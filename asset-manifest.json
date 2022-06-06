@@ -1,22 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.16a76193.chunk.css",
-    "main.js": "/static/js/main.99a45567.chunk.js",
-    "main.js.map": "/static/js/main.99a45567.chunk.js.map",
+    "main.js": "/static/js/main.65e1a525.chunk.js",
+    "main.js.map": "/static/js/main.65e1a525.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d7651f20.js",
     "runtime-main.js.map": "/static/js/runtime-main.d7651f20.js.map",
-    "static/js/2.a642f1a5.chunk.js": "/static/js/2.a642f1a5.chunk.js",
-    "static/js/2.a642f1a5.chunk.js.map": "/static/js/2.a642f1a5.chunk.js.map",
+    "static/js/2.20639bf0.chunk.js": "/static/js/2.20639bf0.chunk.js",
+    "static/js/2.20639bf0.chunk.js.map": "/static/js/2.20639bf0.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.862f2086db561fdbcc1e68a3e16389fb.js": "/precache-manifest.862f2086db561fdbcc1e68a3e16389fb.js",
+    "precache-manifest.a003471bced68e44096046c008514e03.js": "/precache-manifest.a003471bced68e44096046c008514e03.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.16a76193.chunk.css.map": "/static/css/main.16a76193.chunk.css.map",
-    "static/js/2.a642f1a5.chunk.js.LICENSE.txt": "/static/js/2.a642f1a5.chunk.js.LICENSE.txt",
-    "static/js/main.99a45567.chunk.js.LICENSE.txt": "/static/js/main.99a45567.chunk.js.LICENSE.txt",
+    "static/js/2.20639bf0.chunk.js.LICENSE.txt": "/static/js/2.20639bf0.chunk.js.LICENSE.txt",
+    "static/js/main.65e1a525.chunk.js.LICENSE.txt": "/static/js/main.65e1a525.chunk.js.LICENSE.txt",
     "static/media/Artoo.png": "/static/media/Artoo.4c5e5cb9.png",
     "static/media/Cake-it.png": "/static/media/Cake-it.90e3bbe6.png",
     "static/media/LocAin.png": "/static/media/LocAin.7c358594.png",
     "static/media/Plot.png": "/static/media/Plot.1511a787.png",
+    "static/media/autoever.png": "/static/media/autoever.87d5241b.png",
     "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.fee66e71.woff",
     "static/media/get-rest.png": "/static/media/get-rest.23acf8c1.png",
     "static/media/github.svg": "/static/media/github.4ffd4fe7.svg",
@@ -41,8 +42,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.d7651f20.js",
-    "static/js/2.a642f1a5.chunk.js",
+    "static/js/2.20639bf0.chunk.js",
     "static/css/main.16a76193.chunk.css",
-    "static/js/main.99a45567.chunk.js"
+    "static/js/main.65e1a525.chunk.js"
   ]
 }
