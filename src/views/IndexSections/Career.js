@@ -45,9 +45,8 @@ class Experience extends React.Component {
               <p>2021-07 ~ NOW</p>
               <div className="mb-4">
                 <p>신한은행 차세대 NEXT 프로젝트 단말-채널 업무 운영/관리</p>
-                <li>채널통합 시스템 신규 개발 관리 업무 - <b>Java, Anylink7, Jeus</b></li>
-                <li>채널큐 아키텍처 설계 업무 - <b>Kafka, Spring Boot, Undertow</b></li>
-                <li>통합인터페이스로그 서버 구축 관리 - <b>Elastic Search, Kibana</b></li>
+                <li>채널큐 아키텍처 설계 / 개발 업무 - <b>Kafka, Spring Boot, Undertow, RxJava</b></li>
+                <li>통합인터페이스로그 서버 구축 / 대시보드 개발 및 관리 - <b>Elastic Search, Kibana</b></li>
               </div>
             </Col>
           </Row>
@@ -59,7 +58,7 @@ class Experience extends React.Component {
                 <img
                   className="img-fluid"
                   alt="autoever"
-                  src="https://www.hyundai.co.kr/images/affiliates/others/img-autoever-logo.gif"
+                  src={require("images/autoever.png")}
                   width="200px"
                 ></img>
               </a>
@@ -134,7 +133,6 @@ class Experience extends React.Component {
                 차트의 로딩 속도 및 각 라이브러리로 만들 수 있는 차트를 분석한
                 보고서 제작
               </li>
-              <br></br>
               <b>SKILLS : Javascript / Typescript / D3.js / Billboard.js</b>
             </Col>
           </Row>
