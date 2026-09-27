@@ -35,3 +35,9 @@ body {
   min-width: 680px;
   height: auto;
 }
+
+/* Argon은 p와 .lead를 300(Light)으로 둬서 Pretendard에서 목록·제목보다 가늘게 보인다. 본문과 같은 400으로 맞춘다 */
+p,
+.lead {
+  font-weight: 400;
+}
