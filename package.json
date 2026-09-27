@@ -32,7 +32,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "NODE_PATH=./src react-scripts start",
-    "build": "react-scripts build && gulp licenses",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider react-scripts build && gulp licenses",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
