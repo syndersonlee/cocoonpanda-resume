@@ -42,6 +42,29 @@ class Career extends React.Component {
               {text}
             </p>
           ))}
+        {section.diagram && (
+          <figure className="diagram mb-3">
+            <div className="diagram-scroll">
+              <a
+                href={require(`images/diagrams/${section.diagram.file}`)}
+                target="_blank"
+                rel="noopener noreferrer"
+                title="원본 크기로 보기"
+              >
+                <img
+                  src={require(`images/diagrams/${section.diagram.file}`)}
+                  alt={section.diagram.alt}
+                />
+              </a>
+            </div>
+            <figcaption className="small text-muted mt-1">
+              {section.diagram.caption
+                ? `${section.diagram.caption} · `
+                : ""}
+              그림을 누르면 원본 크기로 열립니다
+            </figcaption>
+          </figure>
+        )}
         {section.ordered && (
           <ol className="small pl-3 mb-2">
             {section.ordered.map((text) => (
