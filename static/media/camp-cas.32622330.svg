@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 640" width="100%" font-family="Pretendard, -apple-system, Apple SD Gothic Neo, Malgun Gothic, Noto Sans KR, sans-serif" style="max-width:820px;background:#fff"><defs><marker id="arr-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1B2A41"/></marker><marker id="arr-sky" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0E7AC4"/></marker><marker id="arr-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8A97A8"/></marker><marker id="arr-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7B4FD0"/></marker><marker id="arr-good" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3BA776"/></marker><marker id="arr-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D9534F"/></marker></defs><rect width="820" height="640" fill="#ffffff"/><rect x="25" y="16" width="170" height="40" rx="7" fill="#F1F8FE" stroke="#4FA3E0" stroke-width="1.4"/>
+<text x="110.0" y="40.8" text-anchor="middle" font-size="13.5" font-weight="700" fill="#1B2A41">차감 T1</text>
+<path d="M110,56 V548" fill="none" stroke="#8A97A8" stroke-width="1.2" stroke-dasharray="6 4"/>
+<rect x="325" y="16" width="170" height="40" rx="7" fill="#F1F8FE" stroke="#4FA3E0" stroke-width="1.4"/>
+<text x="410.0" y="40.8" text-anchor="middle" font-size="13.5" font-weight="700" fill="#1B2A41">MySQL (재고 행)</text>
+<path d="M410,56 V548" fill="none" stroke="#8A97A8" stroke-width="1.2" stroke-dasharray="6 4"/>
+<rect x="625" y="16" width="170" height="40" rx="7" fill="#F1F8FE" stroke="#4FA3E0" stroke-width="1.4"/>
+<text x="710.0" y="40.8" text-anchor="middle" font-size="13.5" font-weight="700" fill="#1B2A41">동기화 T2</text>
+<path d="M710,56 V548" fill="none" stroke="#8A97A8" stroke-width="1.2" stroke-dasharray="6 4"/>
+<rect x="404" y="92" width="12" height="164" rx="2" fill="#FFF4E3" stroke="#E8A33D" stroke-width="1.4"/>
+<rect x="404" y="402" width="12" height="126" rx="2" fill="#FFF4E3" stroke="#E8A33D" stroke-width="1.4"/>
+<path d="M110,100 H402" fill="none" stroke="#1B2A41" stroke-width="1.6" marker-end="url(#arr-ink)"/>
+<rect x="129.0" y="79" width="262.0" height="19" rx="3" fill="#FFFFFF" opacity="0.95"/>
+<text x="260.0" y="92" text-anchor="middle" font-size="12" font-weight="500" fill="#1B2A41">SELECT … FOR UPDATE (Row Lock 획득)</text>
+<path d="M710,160 H418" fill="none" stroke="#1B2A41" stroke-width="1.6" marker-end="url(#arr-ink)"/>
+<rect x="485.0" y="123" width="166.0" height="19" rx="3" fill="#FFFFFF" opacity="0.95"/>
+<text x="568.0" y="136" text-anchor="middle" font-size="12" font-weight="500" fill="#1B2A41">SELECT (Lock 없이 읽기)</text>
+<rect x="495.8" y="139" width="144.4" height="19" rx="3" fill="#FFFFFF" opacity="0.95"/>
+<text x="568.0" y="152" text-anchor="middle" font-size="12" font-weight="500" fill="#1B2A41">→ event_times = S0</text>
+<path d="M110,210 H402" fill="none" stroke="#1B2A41" stroke-width="1.6" marker-end="url(#arr-ink)"/>
+<rect x="147.0" y="189" width="226.0" height="19" rx="3" fill="#FFFFFF" opacity="0.95"/>
+<text x="260.0" y="202" text-anchor="middle" font-size="12" font-weight="500" fill="#1B2A41">UPDATE 수량↓, event_times = S1</text>
+<path d="M110,256 H402" fill="none" stroke="#1B2A41" stroke-width="1.6" marker-end="url(#arr-ink)"/>
+<rect x="192.6" y="235" width="134.8" height="19" rx="3" fill="#FFFFFF" opacity="0.95"/>
+<text x="260.0" y="248" text-anchor="middle" font-size="12" font-weight="500" fill="#1B2A41">COMMIT (Lock 해제)</text>
+<path d="M710,310 H418" fill="none" stroke="#1B2A41" stroke-width="1.6" marker-end="url(#arr-ink)"/>
+<rect x="449.0" y="289" width="238.0" height="19" rx="3" fill="#FFFFFF" opacity="0.95"/>
+<text x="568.0" y="302" text-anchor="middle" font-size="12" font-weight="500" fill="#1B2A41">UPDATE … WHERE event_times = S0</text>
+<path d="M418,356 H702" fill="none" stroke="#D9534F" stroke-width="1.6" marker-end="url(#arr-red)"/>
+<rect x="490.2" y="335" width="139.6" height="19" rx="3" fill="#FFFFFF" opacity="0.95"/>
+<text x="560.0" y="348" text-anchor="middle" font-size="12" font-weight="600" fill="#D9534F">0행 갱신 → CAS 실패</text>
+<path d="M710,410 H418" fill="none" stroke="#1B2A41" stroke-width="1.6" marker-end="url(#arr-ink)"/>
+<rect x="431.0" y="389" width="274.0" height="19" rx="3" fill="#FFFFFF" opacity="0.95"/>
+<text x="568.0" y="402" text-anchor="middle" font-size="12" font-weight="500" fill="#1B2A41">SELECT … FOR UPDATE 로 다시 읽기 → S1</text>
+<rect x="604" y="428" width="196" height="46" rx="6" fill="#FFF4E3" stroke="#E8A33D" stroke-width="1.4"/>
+<text x="702.0" y="448" text-anchor="middle" font-size="12" font-weight="500" fill="#1B2A41">요청 시각이 더 최신일 때만</text>
+<text x="702.0" y="464" text-anchor="middle" font-size="12" font-weight="500" fill="#1B2A41">재계산 후 재시도 (최대 2회)</text>
+<path d="M710,520 H418" fill="none" stroke="#3BA776" stroke-width="1.6" marker-end="url(#arr-good)"/>
+<rect x="423.8" y="499" width="288.4" height="19" rx="3" fill="#FFFFFF" opacity="0.95"/>
+<text x="568.0" y="512" text-anchor="middle" font-size="12" font-weight="600" fill="#3BA776">UPDATE … WHERE event_times = S1 → 성공</text>
+<rect x="16" y="564" width="788" height="60" rx="6" fill="#F1F8FE" stroke="#4FA3E0" stroke-width="1.4"/>
+<text x="36" y="588" text-anchor="start" font-size="13" font-weight="700" fill="#1B2A41">Row Lock</text>
+<text x="130" y="588" text-anchor="start" font-size="13" font-weight="500" fill="#1B2A41">동시에 쓰는 것을 막음</text>
+<text x="36" y="610" text-anchor="start" font-size="13" font-weight="700" fill="#1B2A41">CAS</text>
+<text x="130" y="610" text-anchor="start" font-size="13" font-weight="500" fill="#1B2A41">오래된 값을 읽고 쓰는 것을 막음</text></svg>

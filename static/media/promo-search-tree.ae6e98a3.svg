@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 400" width="100%" font-family="Pretendard, -apple-system, Apple SD Gothic Neo, Malgun Gothic, Noto Sans KR, sans-serif" style="max-width:820px;background:#fff"><defs><marker id="arr-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1B2A41"/></marker><marker id="arr-sky" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0E7AC4"/></marker><marker id="arr-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8A97A8"/></marker><marker id="arr-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7B4FD0"/></marker><marker id="arr-good" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3BA776"/></marker><marker id="arr-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D9534F"/></marker></defs><rect width="820" height="400" fill="#ffffff"/><rect x="378.0" y="12.0" width="64" height="36" rx="7" fill="#FFFFFF" stroke="#1B2A41" stroke-width="1.4" opacity="1"/>
+<text x="410" y="34.7" text-anchor="middle" font-size="13" font-weight="700" fill="#1B2A41" opacity="1">{ }</text>
+<path d="M 410 48 L 175 96" fill="none" stroke="#8A97A8" stroke-width="1.4" marker-end="url(#arr-gray)"/>
+<rect x="143.0" y="98.0" width="64" height="36" rx="7" fill="#E8F6EF" stroke="#3BA776" stroke-width="1.4" opacity="1"/>
+<text x="175" y="120.7" text-anchor="middle" font-size="13" font-weight="700" fill="#1B2A41" opacity="1">M1</text>
+<path d="M 410 48 L 465 96" fill="none" stroke="#8A97A8" stroke-width="1.4" marker-end="url(#arr-gray)"/>
+<rect x="433.0" y="98.0" width="64" height="36" rx="7" fill="#E8F6EF" stroke="#3BA776" stroke-width="1.4" opacity="1"/>
+<text x="465" y="120.7" text-anchor="middle" font-size="13" font-weight="700" fill="#1B2A41" opacity="1">S1</text>
+<path d="M 410 48 L 650 96" fill="none" stroke="#8A97A8" stroke-width="1.4" marker-end="url(#arr-gray)"/>
+<rect x="618.0" y="98.0" width="64" height="36" rx="7" fill="#E8F6EF" stroke="#3BA776" stroke-width="1.4" opacity="1"/>
+<text x="650" y="120.7" text-anchor="middle" font-size="13" font-weight="700" fill="#1B2A41" opacity="1">S2</text>
+<path d="M 410 48 L 760 96" fill="none" stroke="#8A97A8" stroke-width="1.4" marker-end="url(#arr-gray)"/>
+<rect x="728.0" y="98.0" width="64" height="36" rx="7" fill="#E8F6EF" stroke="#3BA776" stroke-width="1.4" opacity="1"/>
+<text x="760" y="120.7" text-anchor="middle" font-size="13" font-weight="700" fill="#1B2A41" opacity="1">T1</text>
+<path d="M 175 134 L 65 182" fill="none" stroke="#8A97A8" stroke-width="1.4" marker-end="url(#arr-gray)"/>
+<rect x="32.5" y="184.0" width="65.0" height="36" rx="7" fill="#E8F6EF" stroke="#3BA776" stroke-width="1.4" opacity="1"/>
+<text x="65" y="206.7" text-anchor="middle" font-size="13" font-weight="700" fill="#1B2A41" opacity="1">M1,S1</text>
+<path d="M 175 134 L 175 182" fill="none" stroke="#8A97A8" stroke-width="1.4" marker-end="url(#arr-gray)"/>
+<rect x="142.5" y="184.0" width="65.0" height="36" rx="7" fill="#E8F6EF" stroke="#3BA776" stroke-width="1.4" opacity="1"/>
+<text x="175" y="206.7" text-anchor="middle" font-size="13" font-weight="700" fill="#1B2A41" opacity="1">M1,S2</text>
+<path d="M 175 134 L 285 182" fill="none" stroke="#8A97A8" stroke-width="1.4" marker-end="url(#arr-gray)"/>
+<rect x="252.5" y="184.0" width="65.0" height="36" rx="7" fill="#E8F6EF" stroke="#3BA776" stroke-width="1.4" opacity="1"/>
+<text x="285" y="206.7" text-anchor="middle" font-size="13" font-weight="700" fill="#1B2A41" opacity="1">M1,T1</text>
+<path d="M 465 134 L 405 182" fill="none" stroke="#D9534F" stroke-width="1.4" marker-end="url(#arr-red)"/>
+<rect x="372.5" y="184.0" width="65.0" height="36" rx="7" fill="#FBE9E8" stroke="#D9534F" stroke-width="1.4" opacity="1"/>
+<text x="405" y="206.7" text-anchor="middle" font-size="13" font-weight="700" fill="#D9534F" opacity="1">S1,S2</text>
+<path d="M 465 134 L 525 182" fill="none" stroke="#8A97A8" stroke-width="1.4" marker-end="url(#arr-gray)"/>
+<rect x="492.5" y="184.0" width="65.0" height="36" rx="7" fill="#E8F6EF" stroke="#3BA776" stroke-width="1.4" opacity="1"/>
+<text x="525" y="206.7" text-anchor="middle" font-size="13" font-weight="700" fill="#1B2A41" opacity="1">S1,T1</text>
+<path d="M 650 134 L 650 182" fill="none" stroke="#8A97A8" stroke-width="1.4" marker-end="url(#arr-gray)"/>
+<rect x="617.5" y="184.0" width="65.0" height="36" rx="7" fill="#E8F6EF" stroke="#3BA776" stroke-width="1.4" opacity="1"/>
+<text x="650" y="206.7" text-anchor="middle" font-size="13" font-weight="700" fill="#1B2A41" opacity="1">S2,T1</text>
+<path d="M 65 220 L 65 268" fill="none" stroke="#8A97A8" stroke-width="1.4" stroke-dasharray="6 4" marker-end="url(#arr-gray)"/>
+<rect x="20.800000000000004" y="270.0" width="88.39999999999999" height="36" rx="7" fill="#FFFFFF" stroke="#8A97A8" stroke-width="1.4" stroke-dasharray="5 4" opacity="1"/>
+<text x="65" y="292.7" text-anchor="middle" font-size="13" font-weight="700" fill="#8A97A8" opacity="1">M1,S1,T1</text>
+<text x="122" y="293" text-anchor="start" font-size="12" font-weight="500" fill="#6B7A90">운영 상한 2 → 크기 3은 생성 안 함</text>
+<path d="M 405 220 L 405 268" stroke="#D9534F" stroke-width="1.4" stroke-dasharray="4 4" opacity="0.55" fill="none"/>
+<rect x="362.1" y="270.0" width="85.8" height="36" rx="7" fill="#FFFFFF" stroke="#D9534F" stroke-width="1.4" stroke-dasharray="5 4" opacity="0.55"/>
+<text x="405" y="292.7" text-anchor="middle" font-size="13" font-weight="700" fill="#8A97A8" opacity="0.55">S1,S2,…</text>
+<path d="M 397 237.0 L 413 253.0 M 413 237.0 L 397 253.0" stroke="#D9534F" stroke-width="2.6" fill="none"/>
+<text x="462" y="293" text-anchor="start" font-size="12" font-weight="700" fill="#D9534F">같은 그룹 충돌 → 즉시 되돌아감</text>
+<text x="410" y="350" text-anchor="middle" font-size="12.5" font-weight="500" fill="#1B2A41">M=멤버십 · S=기간 할인(STANDARD) · T=타겟</text>
+<text x="410" y="374" text-anchor="middle" font-size="12.5" font-weight="500" fill="#6B7A90">index 이후만 진행하므로 같은 조합을 두 번 만들지 않음</text></svg>
