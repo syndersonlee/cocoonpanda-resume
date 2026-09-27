@@ -9,9 +9,9 @@
 <rect x="646.5" y="16" width="154.5" height="36" rx="6" fill="#F1F8FE" stroke="#CFE3F1" stroke-width="1.4"/>
 <text x="723.75" y="39" text-anchor="middle" font-size="13" font-weight="700" fill="#1B2A41">로컬 반영</text>
 <path d="M643.5,58 V290" fill="none" stroke="#8A97A8" stroke-width="1" stroke-dasharray="6 4"/>
-<text x="20" y="103.0" text-anchor="start" font-size="13" font-weight="700" fill="#1B2A41">현재 · DB 커넥션</text>
-<text x="20" y="183.0" text-anchor="start" font-size="13" font-weight="700" fill="#1B2A41">목표 · DB 커넥션</text>
-<text x="20" y="263.0" text-anchor="start" font-size="13" font-weight="700" fill="#1B2A41">목표 · Redis Lock</text>
+<text x="20" y="103.0" text-anchor="start" font-size="13" font-weight="700" fill="#1B2A41">개선 전 · DB 커넥션</text>
+<text x="20" y="183.0" text-anchor="start" font-size="13" font-weight="700" fill="#1B2A41">개선 후 · DB 커넥션</text>
+<text x="20" y="263.0" text-anchor="start" font-size="13" font-weight="700" fill="#1B2A41">개선 후 · Redis Lock</text>
 <rect x="166.0" y="70" width="634.0" height="56" rx="6" fill="#FBE9E8" stroke="#D9534F" stroke-width="1.4"/>
 <text x="483.0" y="102.5" text-anchor="middle" font-size="12.5" font-weight="600" fill="#D9534F">트랜잭션 안에서 Lock 대기 → 대기자도 커넥션 점유</text>
 <rect x="166.0" y="146" width="152.5" height="64" rx="6" fill="#DCEFFA" stroke="#4FA3E0" stroke-width="1.4"/>
@@ -25,4 +25,4 @@
 <rect x="487.0" y="230" width="313.0" height="56" rx="6" fill="#F1EBFB" stroke="#7B4FD0" stroke-width="1.4"/>
 <text x="643.5" y="262.5" text-anchor="middle" font-size="12.5" font-weight="700" fill="#7B4FD0">보유</text>
 <rect x="16" y="306" width="788" height="42" rx="6" fill="#F1F8FE" stroke="#4FA3E0" stroke-width="1.4"/>
-<text x="410" y="332" text-anchor="middle" font-size="12.5" font-weight="600" fill="#1B2A41">오픈 직후 몰리는 요청이 Lock을 기다려도 DB 커넥션을 붙잡지 않게 하는 것이 목표 (단계적으로 적용 중)</text></svg>
+<text x="410" y="332" text-anchor="middle" font-size="12.5" font-weight="600" fill="#1B2A41">오픈 직후 몰리는 요청이 Lock을 기다려도 DB 커넥션을 붙잡지 않도록 바꿈</text></svg>

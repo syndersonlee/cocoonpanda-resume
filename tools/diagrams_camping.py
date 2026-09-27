@@ -347,7 +347,7 @@ def camp_connection():
         s.text(x + cw / 2, 39, t, 13, C["ink"], "middle", "700")
         if i:
             s.path(f"M{x},58 V290", color="gray", dashed=True, head=False, width=1)
-    rows = [(70, 56, "현재 · DB 커넥션"), (146, 64, "목표 · DB 커넥션"), (230, 56, "목표 · Redis Lock")]
+    rows = [(70, 56, "개선 전 · DB 커넥션"), (146, 64, "개선 후 · DB 커넥션"), (230, 56, "개선 후 · Redis Lock")]
     for y, h, t in rows:
         check(t, 13, x0 - 24, "row label")
         s.text(20, y + h / 2 + 5, t, 13, C["ink"], "start", "700")
@@ -368,7 +368,7 @@ def camp_connection():
     bar(2, 3, 230, 56, ["보유"], C["purplePale"], C["purple"], C["purple"], weight="700")
 
     rect(s, 16, 306, 788, 42, fill=C["skyPale"], stroke=C["sky"])
-    s.text(410, 332, "오픈 직후 몰리는 요청이 Lock을 기다려도 DB 커넥션을 붙잡지 않게 하는 것이 목표 (단계적으로 적용 중)",
+    s.text(410, 332, "오픈 직후 몰리는 요청이 Lock을 기다려도 DB 커넥션을 붙잡지 않도록 바꿈",
            12.5, C["ink"], "middle", "600")
     save(s, "camp-connection")
 

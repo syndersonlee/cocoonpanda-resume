@@ -39,7 +39,7 @@ const careers = [
             heading: "운영 Lock 구조 진단·개선",
             details: [
               "Redisson 소스 분석으로 Lock 만료 시간을 명시한 설정이 Watchdog(자동 연장)을 끄고 있던 것과, 트랜잭션 내 Lock 대기로 인한 커넥션 점유, 예외 덮어쓰기 결함을 식별하였음",
-              "작업 중 Lock이 만료되지 않도록 Watchdog 활성화, 트랜잭션 분리, Row Lock 순서 통일 순으로 단계를 나눠 개선을 진행하고 있음",
+              "Watchdog을 활성화하여 작업 중 Lock이 만료되지 않도록 하였고, 트랜잭션 분리와 Row Lock 순서 통일을 적용하였음",
             ],
           },
           {
