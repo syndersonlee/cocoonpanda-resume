@@ -25,8 +25,6 @@ import DemoNavbar from "components/Navbars/DemoNavbar.js";
 
 // index page sections
 import TopSection from "./IndexSections/TopSection.js";
-import Mainproject from "./IndexSections/Mainproject.js";
-import Awards from "./IndexSections/Awards.js";
 import Career from "./IndexSections/Career.js";
 import Skill from "./IndexSections/Skill.js";
 import Sideproject from "./IndexSections/Sideproject.js";
@@ -47,13 +45,15 @@ class Index extends React.Component {
           <section className="section section-components">
             <Container>
               <Career />
-              <Experience />
-              <Mainproject />
-              <Sideproject />
-              <Awards />
             </Container>
           </section>
           <Skill />
+          <section className="section pt-0">
+            <Container>
+              <Experience />
+              <Sideproject />
+            </Container>
+          </section>
         </main>
       </>
     );

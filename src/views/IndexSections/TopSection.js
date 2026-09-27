@@ -20,6 +20,8 @@ import React from "react";
 // reactstrap components
 import { Container, Row, Col } from "reactstrap";
 
+import profile from "data/profile.js";
+
 class TopSection extends React.Component {
   render() {
     return (
@@ -43,15 +45,36 @@ class TopSection extends React.Component {
             <Container className="shape-container d-flex align-items-center py-lg">
               <div className="col px-0">
                 <Row className="align-items-center justify-content-center">
-                  <Col className="text-center" lg="6">
-                  <div className="mt-5">
-                      <p className="display-2 text-white mb-0 mr-2">
-                        Developer Sangyun <br/> Portfolio
+                  <Col className="text-center" lg="9">
+                    <div className="mt-5">
+                      <p className="display-2 text-white mb-0">
+                        {profile.nameKo}{" "}
+                        <small className="text-white-50">{profile.nameEn}</small>
+                      </p>
+                      <p className="h4 text-white font-weight-bold mb-4">
+                        {profile.role}
                       </p>
                     </div>
-                    <p className="lead text-white">
-                      새로운 지식을 습득하려 노력하는 주니어 개발자입니다. 많은 유저가 사용하는 프로그램을 만들고 관리할 수 있는 백엔드 개발 능력 그리고 인프라 설계 능력을 갖추고자 합니다.
-                    </p>
+                    <p className="lead text-white">{profile.summary}</p>
+                    <div className="mt-4">
+                      <a
+                        className="btn btn-white btn-icon mb-2 mr-2"
+                        href={`mailto:${profile.email}`}
+                        style={{ textTransform: "none" }}
+                      >
+                        <i className="fa fa-envelope mr-2" />
+                        {profile.email}
+                      </a>
+                      <a
+                        className="btn btn-outline-white btn-icon mb-2"
+                        href={profile.github}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-github mr-2" />
+                        GitHub
+                      </a>
+                    </div>
                   </Col>
                 </Row>
               </div>
