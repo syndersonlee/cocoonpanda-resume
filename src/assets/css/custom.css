@@ -1,0 +1,20 @@
+/* Argon 기본 폰트(Nanum Gothic/Open Sans)를 한글 가독성이 좋은 Pretendard로 교체 */
+body,
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6,
+.display-1, .display-2, .display-3, .display-4,
+.btn,
+.badge,
+.nav-link,
+.popover,
+.tooltip {
+  font-family: "Pretendard Variable", Pretendard, -apple-system,
+    BlinkMacSystemFont, system-ui, "Apple SD Gothic Neo", "Noto Sans KR",
+    "Malgun Gothic", sans-serif;
+}
+
+/* 한글 단어가 줄 끝에서 중간에 끊기지 않도록 */
+body {
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
