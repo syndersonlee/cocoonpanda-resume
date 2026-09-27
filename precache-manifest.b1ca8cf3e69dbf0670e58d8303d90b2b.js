@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f1de1a64254dec6b6613089a91cf7895",
+    "revision": "958d78559fa053757b02a1051fb8f3ab",
     "url": "/index.html"
   },
   {
-    "revision": "a53041c341f465f4d60e",
-    "url": "/static/css/main.16a76193.chunk.css"
+    "revision": "8a3c07c439cf01de1f7d",
+    "url": "/static/css/main.2140cacd.chunk.css"
   },
   {
-    "revision": "a4b749527d0f2d3008e6",
-    "url": "/static/js/2.20639bf0.chunk.js"
+    "revision": "21e8616b7ab62feb6f39",
+    "url": "/static/js/2.ef17b877.chunk.js"
   },
   {
     "revision": "402769e0fde7682650babf6b5720df16",
-    "url": "/static/js/2.20639bf0.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.ef17b877.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a53041c341f465f4d60e",
-    "url": "/static/js/main.65e1a525.chunk.js"
+    "revision": "8a3c07c439cf01de1f7d",
+    "url": "/static/js/main.3894afda.chunk.js"
   },
   {
     "revision": "a80c7439878ff77adf6b5e795f42c5ae",
-    "url": "/static/js/main.65e1a525.chunk.js.LICENSE.txt"
+    "url": "/static/js/main.3894afda.chunk.js.LICENSE.txt"
   },
   {
     "revision": "8aa3d7f9ac5e47205f7b",
@@ -138,6 +138,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "75f7ab18f707114d817522df8dea0a3b",
     "url": "/static/media/promo-1.75f7ab18.png"
+  },
+  {
+    "revision": "00115102c579b1ffc0b61fcd8b7aea26",
+    "url": "/static/media/seoul-air.00115102.png"
   },
   {
     "revision": "9f0fe281d82df781af80bc5886e96563",

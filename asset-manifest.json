@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.16a76193.chunk.css",
-    "main.js": "/static/js/main.65e1a525.chunk.js",
-    "main.js.map": "/static/js/main.65e1a525.chunk.js.map",
+    "main.css": "/static/css/main.2140cacd.chunk.css",
+    "main.js": "/static/js/main.3894afda.chunk.js",
+    "main.js.map": "/static/js/main.3894afda.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d7651f20.js",
     "runtime-main.js.map": "/static/js/runtime-main.d7651f20.js.map",
-    "static/js/2.20639bf0.chunk.js": "/static/js/2.20639bf0.chunk.js",
-    "static/js/2.20639bf0.chunk.js.map": "/static/js/2.20639bf0.chunk.js.map",
+    "static/js/2.ef17b877.chunk.js": "/static/js/2.ef17b877.chunk.js",
+    "static/js/2.ef17b877.chunk.js.map": "/static/js/2.ef17b877.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.a003471bced68e44096046c008514e03.js": "/precache-manifest.a003471bced68e44096046c008514e03.js",
+    "precache-manifest.b1ca8cf3e69dbf0670e58d8303d90b2b.js": "/precache-manifest.b1ca8cf3e69dbf0670e58d8303d90b2b.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.16a76193.chunk.css.map": "/static/css/main.16a76193.chunk.css.map",
-    "static/js/2.20639bf0.chunk.js.LICENSE.txt": "/static/js/2.20639bf0.chunk.js.LICENSE.txt",
-    "static/js/main.65e1a525.chunk.js.LICENSE.txt": "/static/js/main.65e1a525.chunk.js.LICENSE.txt",
+    "static/css/main.2140cacd.chunk.css.map": "/static/css/main.2140cacd.chunk.css.map",
+    "static/js/2.ef17b877.chunk.js.LICENSE.txt": "/static/js/2.ef17b877.chunk.js.LICENSE.txt",
+    "static/js/main.3894afda.chunk.js.LICENSE.txt": "/static/js/main.3894afda.chunk.js.LICENSE.txt",
     "static/media/Artoo.png": "/static/media/Artoo.4c5e5cb9.png",
     "static/media/Cake-it.png": "/static/media/Cake-it.90e3bbe6.png",
     "static/media/LocAin.png": "/static/media/LocAin.7c358594.png",
@@ -33,6 +33,7 @@
     "static/media/orla.png": "/static/media/orla.14badcc1.png",
     "static/media/profile.jpg": "/static/media/profile.278a0d25.jpg",
     "static/media/promo-1.png": "/static/media/promo-1.75f7ab18.png",
+    "static/media/seoul-air.png": "/static/media/seoul-air.00115102.png",
     "static/media/sopt.png": "/static/media/sopt.9f0fe281.png",
     "static/media/team-1-800x800.jpg": "/static/media/team-1-800x800.53033970.jpg",
     "static/media/team-2-800x800.jpg": "/static/media/team-2-800x800.dcfcf3b7.jpg",
@@ -42,8 +43,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.d7651f20.js",
-    "static/js/2.20639bf0.chunk.js",
-    "static/css/main.16a76193.chunk.css",
-    "static/js/main.65e1a525.chunk.js"
+    "static/js/2.ef17b877.chunk.js",
+    "static/css/main.2140cacd.chunk.css",
+    "static/js/main.3894afda.chunk.js"
   ]
 }
