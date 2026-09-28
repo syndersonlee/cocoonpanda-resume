@@ -278,7 +278,7 @@ def promo_bundle_x6():
 
 # ------------------------------------------------------------------ 6
 def promo_kafka():
-    H = 490
+    H = 466
     s = SVG(W, H)
     grp(s, 10, 10, 800, 124, "Before · 동기 REST", fill=C["redPale"], stroke=C["red"], color=C["red"])
     box(s, 30, 44, 140, 72, "B2C 요금제")
@@ -288,11 +288,10 @@ def promo_kafka():
     s.path("M 170 96 L 328 96", "ink")
     lab(s, 250, 100, "변경 2 (재시도)", color=C["ink"])
     for i, t in enumerate(["• 응답 실패 시 재시도 안 하면 유실",
-                           "• 병렬 호출·재시도로 오래된 변경이 최신을 덮음",
                            "• 파트너가 느리면 B2C 스레드가 묶임"]):
-        s.text(500, 62 + i * 24, t, size=12.5, color=C["red"], weight="600")
+        s.text(500, 74 + i * 24, t, size=12.5, color=C["red"], weight="600")
 
-    grp(s, 10, 150, 800, 330, "After · Kafka (양방향)", fill=C["goodPale"], stroke=C["good"], color=C["good"])
+    grp(s, 10, 150, 800, 302, "After · Kafka (양방향)", fill=C["goodPale"], stroke=C["good"], color=C["good"])
     # 1행
     y = 186
     box(s, 26, y, 160, 64, "공급사 요금제 서비스")
@@ -316,8 +315,6 @@ def promo_kafka():
     box(s, 216, y3, 140, 64, "Kafka", ["실패 이벤트", "(별도 실패 토픽)"], fill=C["redPale"], stroke=C["red"])
     s.path(f"M 106 346 L 106 {y3 + 32} L 214 {y3 + 32}", "red", dashed=True)
     lab(s, 116, y3 + 20, "실패 시", color=C["red"], anchor="start", bg=False)
-    s.text(410, 466, "브로커는 파티션 안 순서만 보장 → 오래된·중복 이벤트는 애플리케이션이 시각 비교로 거름",
-           size=12.5, color=C["ink"], anchor="middle", weight="600")
     save(s, "promo-kafka")
 
 
