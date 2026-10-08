@@ -12,7 +12,7 @@
 <text x="288.0" y="216.0" text-anchor="middle" font-size="13.5" font-weight="700" fill="#1B2A41">② 멱등 확인</text>
 <text x="288.0" y="236.5" text-anchor="middle" font-size="12" fill="#6B7A90">같은 거래가 이미 성공했으면 중단</text>
 <rect x="124" y="258" width="328" height="40" rx="7" fill="#FFFFFF" stroke="#4FA3E0" stroke-width="1.4"/>
-<text x="288.0" y="282.8" text-anchor="middle" font-size="13.5" font-weight="700" fill="#1B2A41">③ 공급사 원장 재고 차감 (HTTP)</text>
+<text x="288.0" y="282.8" text-anchor="middle" font-size="13.5" font-weight="700" fill="#1B2A41">③ 공급사 재고 테이블 차감 (HTTP)</text>
 <rect x="124" y="342" width="328" height="82" rx="7" fill="#FFFFFF" stroke="#4FA3E0" stroke-width="1.4"/>
 <text x="288.0" y="364.5" text-anchor="middle" font-size="13.5" font-weight="700" fill="#1B2A41">④ 요금제별 반영</text>
 <text x="288.0" y="385.0" text-anchor="middle" font-size="12" fill="#6B7A90">원래 요금제 + 재고 공유 요금제</text>
@@ -27,13 +27,14 @@
 <text x="288.0" y="578.0" text-anchor="middle" font-size="13.5" font-weight="700" fill="#1B2A41">⑦ 거래 기록 저장</text>
 <text x="288.0" y="598.5" text-anchor="middle" font-size="12" fill="#6B7A90">별도 트랜잭션, finally</text>
 <rect x="16" y="130" width="8" height="476" rx="3" fill="#4FA3E0"/>
-<rect x="29" y="258" width="7" height="40" rx="3" fill="#E8A33D"/>
+<rect x="29" y="258" width="7" height="52" rx="3" fill="#E8A33D"/>
 <rect x="29" y="342" width="7" height="82" rx="3" fill="#3BA776"/>
 <text x="40" y="145" text-anchor="start" font-size="13" font-weight="700" fill="#1B2A41">1층</text>
 <text x="40" y="161" text-anchor="start" font-size="12" font-weight="500" fill="#6B7A90">분산 Lock</text>
 <text x="40" y="177" text-anchor="start" font-size="12" font-weight="500" fill="#6B7A90">끝까지 보유</text>
 <text x="40" y="273" text-anchor="start" font-size="13" font-weight="700" fill="#1B2A41">2층</text>
-<text x="40" y="289" text-anchor="start" font-size="12" font-weight="500" fill="#6B7A90">공급사 원장</text>
+<text x="40" y="289" text-anchor="start" font-size="12" font-weight="500" fill="#6B7A90">공급사</text>
+<text x="40" y="305" text-anchor="start" font-size="12" font-weight="500" fill="#6B7A90">재고 테이블</text>
 <text x="40" y="357" text-anchor="start" font-size="13" font-weight="700" fill="#1B2A41">3층</text>
 <text x="40" y="373" text-anchor="start" font-size="12" font-weight="500" fill="#6B7A90">DB 마지막</text>
 <text x="40" y="389" text-anchor="start" font-size="12" font-weight="500" fill="#6B7A90">방어선</text>
@@ -49,7 +50,7 @@
 <text x="615.0" y="162" text-anchor="middle" font-size="12" font-weight="500" fill="#D9534F">차감 실패로 닫힘</text>
 <text x="615.0" y="178" text-anchor="middle" font-size="12" font-weight="500" fill="#D9534F">(초과 판매보다 미판매)</text>
 <rect x="540" y="256" width="160" height="44" rx="7" fill="#FFF4E3" stroke="#E8A33D" stroke-width="1.4"/>
-<text x="620.0" y="282.8" text-anchor="middle" font-size="13.5" font-weight="700" fill="#1B2A41">공급사 재고 원장</text>
+<text x="620.0" y="282.8" text-anchor="middle" font-size="13.5" font-weight="700" fill="#1B2A41">공급사 재고 테이블</text>
 <path d="M452,270 H538" fill="none" stroke="#1B2A41" stroke-width="1.6" marker-end="url(#arr-ink)"/>
 <path d="M540,288 H454" fill="none" stroke="#1B2A41" stroke-width="1.6" marker-end="url(#arr-ink)"/>
 <rect x="558.6" y="303" width="122.8" height="19" rx="3" fill="#FFFFFF" opacity="0.95"/>

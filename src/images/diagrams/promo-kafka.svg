@@ -11,7 +11,7 @@
 <rect x="197.0" y="87.0" width="106" height="19" fill="#FFFFFF" opacity="0.95" rx="3"/>
 <text x="250" y="100" text-anchor="middle" font-size="12" font-weight="500" fill="#1B2A41">변경 2 (재시도)</text>
 <text x="500" y="74" text-anchor="start" font-size="12.5" font-weight="600" fill="#D9534F">• 응답 실패 시 재시도 안 하면 유실</text>
-<text x="500" y="98" text-anchor="start" font-size="12.5" font-weight="600" fill="#D9534F">• 파트너가 느리면 B2C 스레드가 묶임</text>
+<text x="500" y="98" text-anchor="start" font-size="12.5" font-weight="600" fill="#D9534F">• 파트너가 느리면 B2C Thread가 묶임</text>
 <rect x="10" y="150" width="800" height="302" rx="10" fill="#E8F6EF" stroke="#3BA776" stroke-width="1.5" stroke-dasharray="8 5"/>
 <text x="22" y="171" text-anchor="start" font-size="13" font-weight="700" fill="#3BA776">After · Kafka (양방향)</text>
 <rect x="26" y="186" width="160" height="64" rx="7" fill="#FFFFFF" stroke="#4FA3E0" stroke-width="1.4"/>

@@ -9,7 +9,7 @@ const profile = {
 };
 
 export const skills = [
-  { category: "Language", items: ["Kotlin", "Java", "SQL"] },
+  { category: "Language", items: ["Kotlin", "Java", "SQL", "Python(도구 개발)"] },
   {
     category: "Framework",
     items: ["Spring Boot", "Spring Data JPA", "QueryDSL", "MyBatis"],
@@ -20,7 +20,8 @@ export const skills = [
       "MySQL",
       "Redis(Redisson)",
       "Kafka",
-      "AWS",
+      "AWS EKS(Kubernetes)",
+      "Istio",
       "Grafana",
       "Datadog",
       "Sentry",
